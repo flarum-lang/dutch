@@ -45,7 +45,7 @@ flarum-tags:
 
     # These strings are used in the Tags page.
     tags:
-      about_tags_text: categorieën worden gebruikt voor het indelen van discussies. Primaire categorieën lijken op traditionele forum categorieën: ze kunnen worden gerangschikt op een twee-lagen hierarchie. Secondaire categorieën hebben geen hierarchie of volgorde en zijn erg handig voor micro-categorisatie.
+      about_tags_text: "categorieën worden gebruikt voor het indelen van discussies. Primaire categorieën lijken op traditionele forum categorieën: ze kunnen worden gerangschikt op een twee-lagen hierarchie. Secondaire categorieën hebben geen hierarchie of volgorde en zijn erg handig voor micro-categorisatie."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Primaire categorieën
       secondary_heading: Secundaire categorieën
