@@ -20,15 +20,17 @@ core:
       colored_header_label: Gekleurde header
       colors_heading: Kleuren
       colors_text: Kies twee kleuren om je forum mee vorm te geven. De eerste zal worden gebruikt als highlight-kleur, terwijl de tweede wordt gebruikt voor achtergrond elementen.
+      custom_footer_heading: Eigen voettekst
+      custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Eigen header
-      custom_header_text: "Voeg HTML toe om weergegeven te worden boven Flarum's eigen header."
+      custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Eigen stijl
       custom_styles_text: Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's standaard stijl.
       dark_mode_label: Donkere stijl
       edit_css_button: Eigen CSS bewerken
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Kies a.u.b. een hexadecimale kleurcode.
-      edit_header_button: Eigen header bewerken
-      enter_hex_message: Vul een hexadecimale kleurcode in.
       favicon_heading: Favicon
       favicon_text: Upload een afbeelding om weergegeven te worden als snelkoppeling.
       logo_heading: Logo
@@ -52,13 +54,8 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Deze <strong>beta software</strong> is voornamelijk verspreid zodat je ons het kan helpen testen en het beter te maken, gebruik het niet in productie."
-      contributing_text: "Wil je mee helpen zoeken naar bugs en meehelpen deze op te lossen? Lees de <a>Contributie documentatie</a>."
-      extension_text: "Geïntereseert in het ontwikkelen van extensies? Lees de <a>Extensie documentatie</a>."
-      features_text: "Heb je een idee om een functie te verbeteren? Vertel het ons onder het <a>Features label</a>."
-      support_text: "Een bug gevonden? Rapporteer het a.u.b. op ons forum onder het <a>Support tlabel</a>."
-      troubleshooting_text: "Heb je problemen? Volg de instructies in de <a>Probleemoplossing documentatie</a>."
-      version_text: "Bedankt voor het proberen van Flarum! Je draait nu versie {version}."
+      clear_cache_button: Cache wissen
+      tools_button: Hulpmiddelen
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -66,9 +63,15 @@ core:
       submit_button: => core.ref.save_changes
       title: Eigen CSS bijwerken
 
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
+
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Kleur
+      color_label: => core.ref.color
       delete_button: Verwijder groep
       delete_confirmation: Weet je zeker dat je deze groep wilt verwijderen? De groepsleden worden NIET verwijdert.
       icon_label: Icoon
@@ -81,9 +84,9 @@ core:
     
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Voeg HTML toe om weergegeven te worden boven Flarum's eigen header."
+      customize_text: => core.ref.custom_header_text
       submit_button: => core.ref.save_changes
-      title: Eigen header bijwerken
+      title: => core.ref.custom_header_title
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -132,13 +135,14 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Sta hernoemen toe
       allow_post_editing_label: Sta bericht bewerking toe
+      allow_renaming_label: Sta hernoemen toe
       create_heading: Maak
       delete_discussions_forever_label: Verwijder discussies permanent
       delete_discussions_label: Verwijder discussies
       delete_posts_forever_label: Verwijder berichten permanent
-      edit_and_delete_posts_label: Bewerk en verwijder berichten
+      delete_posts_label: Verwijder berichten
+      edit_posts_label: Wijzig berichten
       global_heading: Globaal
       moderate_heading: Moderatie
       new_group_button: Nieuwe groep
@@ -149,6 +153,9 @@ core:
       sign_up_label: Registreren
       start_discussions_label: Start discussies
       view_discussions_label: Bekijk discussies
+      view_last_seen_at_label: Bekijk gebruiker laatst gezien
+      view_post_ips_label: Bekijk IP adressen van bericht
+      view_user_list_label: Bekijk gebruikerslijst
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -175,8 +182,10 @@ core:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
+      confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
+      incorrect_password_message: Het ingevulde wachtwoord is verkeerd
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -192,6 +201,7 @@ core:
       exit_full_screen_tooltip: Sluit volledig scherm
       full_screen_tooltip: Volledig scherm
       minimize_tooltip: Minimaliseren
+      preview_tooltip: Voorvertoning
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -223,7 +233,7 @@ core:
       delete_confirmation: Weet je zeker dat je deze discussie wilt verwijderen?
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Log in om te reageren
-      rename_button: Hernoemen
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -254,6 +264,7 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: We hebben een e-mail gestuurd met een link om uw wachtwoord opnieuw in te stellen. Als je geen e-mail hebt ontvangen controleer dan je spam map.
+      not_found_message: Er is geen gebruiker geregistreerd met dit e-mail adres.
       submit_button: Wachtwoord opnieuw instellen
       text: Vul je e-mailadres in, dan sturen we je een e-mail met een link om je wachtwoord opnieuw in te stellen
       title: Wachtwoord vergeten
@@ -335,14 +346,14 @@ core:
     
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Discussie hernoemen
       submit_button: => core.ref.rename
+      title: Discussie hernoemen
 
     # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: 'Zoek in alle discussies naar "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Gebruikers
+      users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
@@ -359,8 +370,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "Al een account? <a>Log in</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -373,13 +384,13 @@ core:
       avatar_remove_button: Verwijder
       avatar_upload_button: Upload
       avatar_upload_tooltip: Upload een nieuwe avatar
-      bio_placeholder: Schrijf iets over jezelf
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "Geregistreerd: {ago}"
       online_text: Online
+      posts_empty_text: Zo te zien zijn er hier geen berichten.
+      posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
-      posts_link: Berichten
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -409,8 +420,8 @@ core:
     # These translations are displayed as error messages.
     error:
       generic_message: Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.
-      permission_denied_message: Je hebt geen permissie om dat te doen.
       not_found_message: Het opgevraagde kon niet worden gevonden.
+      permission_denied_message: Je hebt geen permissie om dat te doen.
       rate_limit_exceeded_message: Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.
 
     # These translations are used as suffixes when abbreviating numbers.
@@ -424,6 +435,10 @@ core:
       three_text: "{first}, {second}, en {third}"
       two_text: "{first} en {second}"
 
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[verwijderd]"
+
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
@@ -436,18 +451,33 @@ core:
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Vorige pagina
+      previous_page_button: => core.ref.previous_page
 
+    # Translations in this namespace are displayed when Flarum encounters an error.
+    error:
+      403_message: Je hebt geen toegang tot deze pagina.
+      404_message: De pagina kan niet gevonden worden.
+      404_return_link: "Terug naar {forum}"
+      500_message: Er is een fout opgetreden bij het laden van de pagina.
+      503_message: "{forum} ondergaat onderhoud. Bedankt voor uw geduld!"
+    
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "Ben je zeker dat u wilt uitloggen uit {forum}?"
+      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
-      confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password
-      submit_button: Reset Password
+    reset_password:
+      confirm_password_label: Bevestig nieuw wachtwoord
+      new_password_label: Nieuw wachtwoord
+      submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
@@ -499,8 +529,13 @@ core:
     all_discussions: Alle discussies
     change_email: Verander e-mailadres
     change_password: Verander wachtwoord
+    color: Kleur
     confirm_password: Wachtwoord bevestigen
     confirmation_email_sent: "We hebben een verficatie e-mail gestuurd naar {email}. Als je geen e-mail hebt ontvangen controleer dan je spam map."
+    custom_footer_text: HTML toevoegen dat weergegeven wordt onderaan op elke pagina.
+    custom_footer_title: Wijzig eigen voettekst
+    custom_header_text: "HTML toevoegen dat weergegeven wordt bovenaan elke pagina, boven Flarum's eigen header."
+    custom_header_title: Wijzig eigen header
     delete: Verwijderen
     delete_forever: Permanent verwijderen
     discussions: Discussies
@@ -514,6 +549,9 @@ core:
     notifications: Notificaties
     okay: Oké
     password: Wachtwoord
+    posts: Berichten
+    previous_page: Vorige pagina
+    remove: Verwijder
     rename: Hernoemen
     reply: Reageren                                     # Referenced by flarum-mentions.yml
     reset_your_password: Wachtwoord opnieuw instellen
@@ -524,6 +562,7 @@ core:
     some_others: "{count} ander|{count} andere"         # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Start een discussie
     username: Gebruikersnaam
+    users: Gebruikers
     write_a_reply: Schrijf een reactie...
     you: Jij                                            # Referenced by flarum-likes.yml, flarum-mentions.yml                                  # Referenced by flarum-likes.yml, flarum-mentions.yml
 
@@ -533,8 +572,8 @@ core:
 
   # Strings in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
+    admin: Administrator
+    admins: Administrators
     guest: Gast
     guests: Gasten
     member: Lid

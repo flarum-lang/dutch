@@ -13,7 +13,7 @@ flarum-tags:
 
     # These strings are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Kleur
+      color_label: => core.ref.color
       description_label: Beschrijving
       delete_tag_button: Verwijder categorie
       delete_tag_confirmation: Weet je zeker dat je deze categorie wilt verwijderen? De bijbehorende discussie zal NIET worden verwijdert.
@@ -31,6 +31,7 @@ flarum-tags:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
+      allow_edit_tags_label: Categorie bewerken toestaan
       restrict_by_tag_heading: Beperken per categorie
       tag_discussions_label: Discussies categoriseren
 
@@ -58,7 +59,7 @@ flarum-tags:
     choose_tags:
       choose_primary_placeholder: "Kies een primaire categorie|Kies {count} primaire categorieën"
       choose_secondary_placeholder: "Kies nog 1 extra categorie|Kies nog {count} extra categorieën"
-      edit_title: "Ctegorieën bijwerken voor {title}"
+      edit_title: "Categorieën bijwerken voor {title}"
       submit_button: => core.ref.okay
       title: Kies categorieën voor je discussie
 
@@ -70,16 +71,19 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Categorieën bijwerken
 
+    header:
+      back_to_tags_tooltip: Terug naar categorielijst
+
     # These strings are used on the index page, peripheral to the discussion list.
     index:
-      tags_link: => flarum-tags.ref.tags
       more_link: Meer...
+      tags_link: => flarum-tags.ref.tags
       untagged_link: Geen categorie
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} heeft de {tagsAdded} toegevoegd."
       added_and_removed_tags_text: "{username} heeft de {tagsAdded} toegevoegd en de {tagsRemoved} verwijderd."
+      added_tags_text: "{username} heeft de {tagsAdded} toegevoegd."
       removed_tags_text: "{username} heeft de {tagsRemoved} verwijderd."
       tags_text: "{tags} categorie|{tags} categorieën"
 
