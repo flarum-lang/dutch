@@ -11,6 +11,10 @@ This language pack is compatible with:
 - [Flarum](https://github.com/flarum/core) (Core) v0.1.0-beta.8
 	- All bundled extensions
 
+- Third party extensions:
+        - [Discussion views](https://discuss.flarum.org/d/7339-discussion-views)
+        - [Profile views](https://discuss.flarum.org/d/7596-profile-views)
+
 ## Installation
 
 ### Using Composer
