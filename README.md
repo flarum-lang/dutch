@@ -8,12 +8,12 @@ Extension to localize the Flarum forum software and its official extensions into
 
 This language pack is compatible with:
 
-- [Flarum](https://github.com/flarum/core) (Core) v0.1.0-beta.8
-	- All bundled extensions
+* [Flarum core](https://github.com/flarum/core) (v0.1.0-beta.8)
+    * All bundled extensions
 
-- Third party extensions:
-        - [Discussion views](https://discuss.flarum.org/d/7339-discussion-views)
-        - [Profile views](https://discuss.flarum.org/d/7596-profile-views)
+* Third party extensions:
+    * [Discussion views](https://discuss.flarum.org/d/7339-discussion-views)
+    * [Profile views](https://discuss.flarum.org/d/7596-profile-views)
 
 ## Installation
 
@@ -30,7 +30,7 @@ composer require michaelbelgium/flarum-dutch
 You can also manually ADD the Dutch language pack as Flarum's dependency. Open the *composer.json* file located at the root of your Flarum installation (not the language pack one!) with [a text editor](https://en.wikipedia.org/wiki/Comparison_of_text_editors), then add to the list of Flarum's dependencies (which are listed below the `"require"` property) the following line in a new line:
 
 ```
-        "michaelbelgium/flarum-dutch": "^2.0"
+"michaelbelgium/flarum-dutch": "^2.0"
 ```
 
 ### Third party extensions
