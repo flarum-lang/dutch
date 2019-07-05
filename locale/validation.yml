@@ -29,6 +29,7 @@ validation:
   dimensions: ":attribute heeft ongeldige dimensies."
   distinct: ":attribute heeft een dubbele waarde."
   email: ":attribute moet een geldig e-mailadres zijn."
+  ends_with: ":attribute moet eindigen met één van de volgende: :values" 
   exists: ":attribute is ongeldig."
   file: ":attribute moet een bestand zijn."
   filled: ":attribute is vereist."

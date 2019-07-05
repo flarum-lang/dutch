@@ -14,10 +14,12 @@ flarum-tags:
     # These strings are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: => core.ref.color
-      description_label: Beschrijving
       delete_tag_button: Verwijder categorie
       delete_tag_confirmation: Weet je zeker dat je deze categorie wilt verwijderen? De bijbehorende discussie zal NIET worden verwijdert.
+      description_label: Beschrijving
       hide_label: Verbergen voor alle discussies
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Link

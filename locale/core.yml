@@ -74,8 +74,8 @@ core:
       color_label: => core.ref.color
       delete_button: Verwijder groep
       delete_confirmation: Weet je zeker dat je deze groep wilt verwijderen? De groepsleden worden NIET verwijdert.
-      icon_label: Icoon
-      icon_text: "Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix."
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: Naam
       plural_placeholder: Meervoud (bijv. Moderators)
       singular_placeholder: Enkelboud (bijv. Moderator)
@@ -90,19 +90,28 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
       addresses_heading: Adressen
+      driver_heading: Kies een driver
       driver_label: Driver
-      encryption_label: Versleuteling
       from_label: Afzender
       heading: => core.ref.email
-      host_label: Host
-      password_label: => core.ref.password
-      port_label: Poort
-      server_heading: SMTP Server
+      mail_encryption_label: Encryptie
+      mail_host_label: Host
+      mail_mailgun_domain_label: Domein
+      mail_mailgun_secret_label: Privé sleutel
+      mail_mandrill_secret_label: Privé sleutel
+      mail_password_label: => core.ref.password
+      mail_port_label: Poort
+      mail_ses_key_label: Sleutel
+      mail_ses_region_label: Regio
+      mail_ses_secret_label: Privaat
+      mail_username_label: => core.ref.username
+      mailgun_heading: Mailgun instellingen
+      mandrill_heading: Mandrill instellingen
+      ses_heading: SES instellingen
+      smtp_heading: SMTP instellingen
       submit_button: => core.ref.save_changes
       text: Configureer de SMTP instellingen en adressen die je forum gebruikt om e-mails te verzenden.
-      username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
@@ -239,7 +248,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Het lijkt erop dat er nog geen discussies zijn. Waarom maak je er niet een aan?
+      empty_text: Het lijkt erop dat er hier geen discussies zijn. Waarom maak je er niet een aan?
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Markeren als gelezen
       replied_text: "{username} heeft {ago} gereageerd"
@@ -458,6 +467,8 @@ core:
       403_message: Je hebt geen toegang tot deze pagina.
       404_message: De pagina kan niet gevonden worden.
       404_return_link: "Terug naar {forum}"
+      419_message: U bent te lang inactief geweest.
+      419_return_link: Ga terug, om opnieuw te proberen
       500_message: Er is een fout opgetreden bij het laden van de pagina.
       503_message: "{forum} ondergaat onderhoud. Bedankt voor uw geduld!"
     
@@ -541,6 +552,8 @@ core:
     discussions: Discussies
     edit: Bewerken
     email: E-mail
+    icon: Icoon
+    icon_text: "Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix."
     load_more: Meer laden
     log_in: Inloggen
     log_out: Uitloggen
