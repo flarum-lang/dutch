@@ -1,0 +1,14 @@
+fof-forum-statistics-widget:
+  forum:
+    navbar:
+      widget_title: Forum Statistieken
+      discussions_count: "Aantal Discussies: {discussionsCount}"
+      posts_count: "Aantal Posts: {postsCount}"
+      users_count: "Aantal Leden: {usersCount}"
+      latest_member: "Laatst geregistreerd: "
+  admin:
+    settings:
+      title: Widget Settings
+      widget_order_label: Widget Order
+      widget_helper_text: "Edit this setting to adjust this widget's position on the sidenav section of your Flarum forum.
+      The higher the number, the higher this widget will be on the sidenav items list (this value can be either positive or negative)."
