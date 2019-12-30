@@ -7,7 +7,7 @@ fof-follow-tags:
 
     index:
       follow_tag_button: Volgen
-      unfollow_tag_button: Stop Volgen
+      unfollow_tag_button: Stop met volgen
 
 
     sub_controls:
