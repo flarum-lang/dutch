@@ -15,6 +15,9 @@ This language pack is compatible with:
     * [Discussion views](https://discuss.flarum.org/d/7339-discussion-views)
     * [Profile views](https://discuss.flarum.org/d/7596-profile-views)
     * [Mybb to Flarum](https://discuss.flarum.org/d/18962-dutch-language-pack)
+    * [Fof Follow tags](https://discuss.flarum.org/d/20525-friendsofflarum-follow-tags)
+    * [Fof forum stats](https://discuss.flarum.org/d/22380-friendsofflarum-forum-statistics-widget)
+    * [Fof nightmode](https://discuss.flarum.org/d/21492-friendsofflarum-night-mode)
 
 ## Installation
 
