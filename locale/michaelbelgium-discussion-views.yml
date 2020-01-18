@@ -8,10 +8,10 @@ flarum_discussion_views:
   forum:
     modal_resetviews:
       title: Wijzig aantal keer bekeken
-      submit: Opslaan
-      label: Aantal
+      submit: Ja, alles verwijderen
+      label: Deze actie zal {count} view verwijderen van deze discussie. Doorgaan?|Deze actie zal {count} views verwijderen van deze discussie. Doorgaan?
     discussion_controls:
-      resetviews_button: Zet aantal keer bekeken naar 0
+      resetviews_button: Reset aantal keer bekeken
   admin:
       permissions:
         reset_views_label: Wijzigen discussie's keer bekeken
