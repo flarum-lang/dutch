@@ -98,6 +98,7 @@ core:
       mail_encryption_label: Encryptie
       mail_host_label: Host
       mail_mailgun_domain_label: Domein
+      mail_mailgun_region_label: Regio
       mail_mailgun_secret_label: Privé sleutel
       mail_mandrill_secret_label: Privé sleutel
       mail_password_label: => core.ref.password
@@ -108,6 +109,7 @@ core:
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun instellingen
       mandrill_heading: Mandrill instellingen
+      not_sending_message: Flarum verzendt momenteel geen e-mails. Dit kan komen door de geselecteerde driver of door fouten in de configuratie.
       ses_heading: SES instellingen
       smtp_heading: SMTP instellingen
       submit_button: => core.ref.save_changes
@@ -157,6 +159,7 @@ core:
       moderate_heading: Moderatie
       new_group_button: Nieuwe groep
       participate_heading: Meedoen
+      post_without_throttle_label: Reageer meerdere keren zonder te wachten
       read_heading: Lezen
       rename_discussions_label: Discussies hernoemen
       reply_to_discussions_label: Reageren op discussies

@@ -8,7 +8,7 @@ Extension to localize the Flarum forum software and its official extensions into
 
 This language pack is compatible with:
 
-* [Flarum core](https://github.com/flarum/core) (v0.1.0-beta.10)
+* [Flarum core](https://github.com/flarum/core) (v0.1.0-beta.12)
     * All bundled extensions
 
 * Third party extensions:
