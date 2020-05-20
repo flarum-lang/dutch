@@ -8,16 +8,17 @@ Extension to localize the Flarum forum software and its official extensions into
 
 This language pack is compatible with:
 
-* [Flarum core](https://github.com/flarum/core) (v0.1.0-beta.12)
+* [Flarum core](https://github.com/flarum/core) (v0.1.0-beta.13)
     * All bundled extensions
 
 * Third party extensions:
-    * [Discussion views](https://discuss.flarum.org/d/7339-discussion-views)
-    * [Profile views](https://discuss.flarum.org/d/7596-profile-views)
-    * [Mybb to Flarum](https://discuss.flarum.org/d/18962-dutch-language-pack)
-    * [Fof Follow tags](https://discuss.flarum.org/d/20525-friendsofflarum-follow-tags)
-    * [Fof forum stats](https://discuss.flarum.org/d/22380-friendsofflarum-forum-statistics-widget)
-    * [Fof nightmode](https://discuss.flarum.org/d/21492-friendsofflarum-night-mode)
+    * [Discussion views](https://discuss.flarum.org/d/7339)
+    * [Profile views](https://discuss.flarum.org/d/7596)
+    * [Mybb to Flarum](https://discuss.flarum.org/d/18962)
+    * [Fof Follow tags](https://discuss.flarum.org/d/20525)
+    * [Fof forum stats](https://discuss.flarum.org/d/22380)
+    * [Fof nightmode](https://discuss.flarum.org/d/21492)
+    * [Google Login](https://discuss.flarum.org/d/18250)
 
 ## Installation
 

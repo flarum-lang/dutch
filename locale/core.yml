@@ -74,6 +74,7 @@ core:
       color_label: => core.ref.color
       delete_button: Verwijder groep
       delete_confirmation: Weet je zeker dat je deze groep wilt verwijderen? De groepsleden worden NIET verwijdert.
+      hide_label: Verbergen op forum
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: Naam
@@ -166,6 +167,7 @@ core:
       sign_up_label: Registreren
       start_discussions_label: Start discussies
       view_discussions_label: Bekijk discussies
+      view_hidden_groups_label: Bekijk verborgen groepsbadges
       view_last_seen_at_label: Bekijk gebruiker laatst gezien
       view_post_ips_label: Bekijk IP adressen van bericht
       view_user_list_label: Bekijk gebruikerslijst
@@ -339,8 +341,10 @@ core:
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
+      delete_confirmation: "Weet je zeker dat je dit bericht voor altijd wilt verwijderen? Deze actie kan niet ongedaan gemaakt worden."
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
+      hide_confirmation: "Weet je zeker dat je dit bericht wilt verwijderen?"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
@@ -411,7 +415,7 @@ core:
     user_controls:
       button: Acties
       delete_button: => core.ref.delete
-      delete_confirmation: Weet je zeker dat je deze gebruiker wilt verwijderen? Alle berichten van de gebruiker worden verwijdert.
+      delete_confirmation: Weet je zeker dat je deze gebruiker wilt verwijderen? De berichten van de gebruiker worden NIET verwijderd.
       delete_error_message: "Het verwijderen van gebruiker <i>{username} ({email})</i> is niet gelukt"
       delete_success_message: "Gebruiker <i>{username} ({email})</i> is verwijderd"
       edit_button: => core.ref.edit
