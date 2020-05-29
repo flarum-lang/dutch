@@ -52,7 +52,7 @@ flarum-flags:
 
     # These strings are used by the post control buttons.
     post_controls:
-      flag_button: Rapport
+      flag_button: Rapporteer
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
