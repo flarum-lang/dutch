@@ -41,6 +41,8 @@ core:
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Standaard taal
+      display_name_heading: Gebruikersnaam
+      display_name_text: Selecteer de driver dat moet worden gebruikt voor de weergavenamen van gebruikers. Standaard wordt de gebruikersnaam weergegeven.
       forum_description_heading: Forum beschrijving
       forum_description_text: Schrijf een zin of twee die je community omschrijft. Deze zal staan in de meta tag en verschijnen in zoekmachines.
       forum_title_heading: Forum titel
@@ -101,17 +103,15 @@ core:
       mail_mailgun_domain_label: Domein
       mail_mailgun_region_label: Regio
       mail_mailgun_secret_label: Privé sleutel
-      mail_mandrill_secret_label: Privé sleutel
       mail_password_label: => core.ref.password
       mail_port_label: Poort
-      mail_ses_key_label: Sleutel
-      mail_ses_region_label: Regio
-      mail_ses_secret_label: Privaat
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun instellingen
-      mandrill_heading: Mandrill instellingen
       not_sending_message: Flarum verzendt momenteel geen e-mails. Dit kan komen door de geselecteerde driver of door fouten in de configuratie.
-      ses_heading: SES instellingen
+      send_test_mail_button: Verstuur
+      send_test_mail_heading: Verstuur testmail
+      send_test_mail_success: "Testmail succesvol verzonden!"
+      send_test_mail_text: "Hiermee wordt een e-mail met de bovenstaande configuratie naar uw e-mailadres gestuurd, {email}."
       smtp_heading: SMTP instellingen
       submit_button: => core.ref.save_changes
       text: Configureer de SMTP instellingen en adressen die je forum gebruikt om e-mails te verzenden.
@@ -301,6 +301,7 @@ core:
       cannot_start_discussion_button: Kan Discussie Niet Starten
       mark_all_as_read_confirmation: "Weet je zeker dat je alle discussies als gelezen wilt markeren?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Herladen
       start_discussion_button: => core.ref.start_a_discussion
 
@@ -439,6 +440,8 @@ core:
 
     # These translations are displayed as error messages.
     error:
+      dependent_extensions_message: "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}"
+      missing_dependencies_message: "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}"
       generic_message: Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.
       not_found_message: Het opgevraagde kon niet worden gevonden.
       permission_denied_message: Je hebt geen permissie om dat te doen.
@@ -546,6 +549,17 @@ core:
 
         Als jij dit niet was, kan je deze e-mail negeren. Dan gebeurt er niets.
 
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: Flarum Email Test
+      body: |
+        Hallo {username}!
+
+        Dit is een testmail om te bevestigen dat uw e-mailconfiguratie van Flarum correct werkt.
+
+        Als u dit was, betekent deze e-mail dat uw configuratie werkt!
+
+        Als u dit niet was, kunt u deze e-mail negeren.
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
   ##
