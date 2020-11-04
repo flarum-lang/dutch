@@ -229,8 +229,10 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: Je hebt je wijzigingen nog niet opgeslagen. Weet je zeker dat je wilt annuleren?
+      edited_message: Je bewerking is gemaakt.
       post_link: "Bericht #{number} in {discussion}"
       submit_button: => core.ref.save_changes
+      view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -238,7 +240,7 @@ core:
       discard_confirmation: Je hebt je reactie nog niet geplaatst. Weet je zeker dat je wilt annuleren?
       posted_message: Je reactie is geplaatst.
       submit_button: Plaats reactie
-      view_button: Bekijk
+      view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -601,6 +603,7 @@ core:
     start_a_discussion: Start een discussie
     username: Gebruikersnaam
     users: Gebruikers
+    view: Bekijk
     write_a_reply: Schrijf een reactie...
     you: Jij                                            # Referenced by flarum-likes.yml, flarum-mentions.yml                                  # Referenced by flarum-likes.yml, flarum-mentions.yml
 
