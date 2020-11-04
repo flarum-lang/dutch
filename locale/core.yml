@@ -458,10 +458,6 @@ core:
       three_text: "{first}, {second}, en {third}"
       two_text: "{first} en {second}"
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[verwijderd]"
-
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
