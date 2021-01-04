@@ -7,14 +7,6 @@ core:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the placeholder Add Extension modal dialog.
-    add_extension:
-      developer_text: "Als je een developer bent, kan je de <a>documentatie lezen</a> en je eigen extensies maken."
-      install_text: "In de tussentijd kan je extensies zoeken op de <a>Flarum Community site</a> en deze handmatig installeren met Composer."
-      temporary_text: "Ooit in de niet zo verre toekomst zal je met deze knop extensies kunnen installeren. We zijn er mee bezig!"
-      title: Extensie toevoegen
-
-
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: Gekleurde header
@@ -27,6 +19,7 @@ core:
       custom_styles_heading: Eigen stijl
       custom_styles_text: Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's standaard stijl.
       dark_mode_label: Donkere stijl
+      description: "Pas de kleuren, logo's en andere variabelen van uw forum aan."
       edit_css_button: Eigen CSS bewerken
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
@@ -36,11 +29,13 @@ core:
       logo_heading: Logo
       logo_text: Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.
       submit_button: => core.ref.save_changes
+      title: Vormgeving
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Standaard taal
+      description: "Stel uw forumtitel, taal en andere basisinstellingen in."
       display_name_heading: Gebruikersnaam
       display_name_text: Selecteer de driver dat moet worden gebruikt voor de weergavenamen van gebruikers. Standaard wordt de gebruikersnaam weergegeven.
       forum_description_heading: Forum beschrijving
@@ -50,13 +45,18 @@ core:
       home_page_text: Kies de pagina die gebruikers voor het eerst te zien krijgen wanneer ze je forum bezoeken. Als je zelf een waarde typt, gebruik dan het path relatief aan de forum root.
       saved_message: De wijzigingen zijn opgeslagen
       show_language_selector_label: Toon taalkiezer
+      slug_driver_heading: "Slug Driver: {model}"
+      slug_driver_text: Selecteer een driver dat moet worden gebruikt om dit model te sluggen.
       submit_button: => core.ref.save_changes
+      title: Basics
       welcome_banner_heading: Welkom banner
       welcome_banner_text: Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten.
 
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: Cache wissen
+      description: Uw forum in één oogopslag.
+      title: Dashboard
       tools_button: Hulpmiddelen
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -94,10 +94,10 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Adressen
+      description: "Configureer de driver, instellingen en adressen die uw forum zal gebruiken om e-mail te verzenden."
       driver_heading: Kies een driver
       driver_label: Driver
       from_label: Afzender
-      heading: => core.ref.email
       mail_encryption_label: Encryptie
       mail_host_label: Host
       mail_mailgun_domain_label: Domein
@@ -114,16 +114,31 @@ core:
       send_test_mail_text: "Hiermee wordt een e-mail met de bovenstaande configuratie naar uw e-mailadres gestuurd, {email}."
       smtp_heading: SMTP instellingen
       submit_button: => core.ref.save_changes
-      text: Configureer de SMTP instellingen en adressen die je forum gebruikt om e-mails te verzenden.
+      title: => core.ref.email
 
-    # These translations are used in the Extensions page.
-    extensions:
-      add_button: Voeg extensie toe
-      settings_button: => core.ref.settings
+    # These translations are used on default extension pages.
+    extension:
+      confirm_uninstall: Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?
+      disabled: Uitgeschakeld
+      enabled: Ingeschakeld
+      enable_to_see: Schakel de extensie in om instellingen te bekijken en te wijzigen.
+      info_links:
+        discuss: Discussiëren
+        documentation: Documentatie
+        donate: Doneren
+        source: Broncode
+        support: Support
+        website: Website
+      no_permissions: Deze extensie heeft geen rechten.
+      no_settings: Deze extensie heeft geen instellingen.
+      open_modal: Open instellingen
+      permissions_title: Rechten
+      saved_message: Uw wijzigingen zijn opgeslagen.
       uninstall_button: Deïnstalleren
 
-    # This translation is used in the session dropdown menu.
+    # This translation is used in the secondary header.
     header:
+      get_help: Krijg hulp
       log_out_button: => core.ref.log_out
 
     # This translation is used in the modal dialog displayed when loading extensions.
@@ -132,18 +147,27 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Uiterlijk
-      appearance_text: Pas de kleuren, logo's, en andere variabelen van je forum aan.
-      basics_button: Basis
-      basics_text: Stel je forum titel, taal en andere basisinstellingen in.
-      dashboard_button: Dashboard
-      dashboard_text: Je forum in een oogopzicht
+      appearance_button: => core.admin.appearance.title
+      appearance_title: => core.admin.appearance.description
+      basics_button: => core.admin.basics.title
+      basics_title: => core.admin.basics.description
+      categories:
+        authentication: Authenticatie
+        core: Core Configuratie
+        discussion: Discussie
+        feature: Features
+        formatting: Formattering
+        language: Talen
+        moderation: Moderatie
+        other: Andere Extensies
+        theme: "Thema's"
+      dashboard_button: => core.admin.dashboard.title
+      dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
-      email_text: "Stel in hoe e-mails verzonden worden."
-      extensions_button: Extensies
-      extensions_text: Voeg extra functionaliteit toe aan het forum en maak het echt de jouwe.
-      permissions_button: Permissies
-      permissions_text: Stel in wie wat kan zien en doen.
+      email_title: => core.admin.email.description
+      permissions_button: => core.admin.permissions.title
+      permissions_title: => core.admin.permissions.description
+      search_placeholder: Extensies zoeken
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -154,6 +178,7 @@ core:
       delete_discussions_label: Verwijder discussies
       delete_posts_forever_label: Verwijder berichten permanent
       delete_posts_label: Verwijder berichten
+      description: Configureer wie wat kan zien en doen.
       edit_posts_label: Wijzig berichten
       edit_users_label: Wijzig gebruikers
       global_heading: Globaal
@@ -166,6 +191,7 @@ core:
       reply_to_discussions_label: Reageren op discussies
       sign_up_label: Registreren
       start_discussions_label: Start discussies
+      title: Permissies
       view_discussions_label: Bekijk discussies
       view_hidden_groups_label: Bekijk verborgen groepsbadges
       view_last_seen_at_label: Bekijk gebruiker laatst gezien
