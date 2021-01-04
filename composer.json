@@ -36,8 +36,7 @@
             "title": "Dutch",
             "category": "language",
             "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#fff",
+                "image": "dutch_core.svg",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
