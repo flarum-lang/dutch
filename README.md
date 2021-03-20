@@ -8,7 +8,7 @@ Extension to localize the Flarum forum software and its official extensions into
 
 This language pack is compatible with:
 
-* [Flarum core](https://github.com/flarum/core) (v0.1.0-beta.15)
+* [Flarum core](https://github.com/flarum/core) (v0.1.0-beta.16)
     * All bundled extensions
 
 * Third party extensions:
@@ -54,3 +54,4 @@ Thank you a lot to wish to contribute. It means a lot. Using and enjoying the lo
 
 - Open [issues](https://github.com/MichaelBelgium/flarum-dutch/issues) on GitHub. Because the localization will be better with your feedbacks.
 - Open pull requests on GitHub. Submit fixes and improvements and be listed as contributor!
+- Use [Weblate](https://weblate.rob006.net/languages/nl/flarum/) to translate extensions to Dutch
