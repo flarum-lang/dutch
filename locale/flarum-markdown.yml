@@ -3,9 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-markdown:
-  admin:
-    settings:
-      mdarea_label: 'Mdera inschakelen?'
   forum:
     composer:
       bold_tooltip: 'Voeg vette tekst toe'

@@ -24,7 +24,6 @@ core:
       favicon_text: 'Upload een afbeelding om weergegeven te worden als snelkoppeling.'
       logo_heading: Logo
       logo_text: 'Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.'
-      submit_button: '=> core.ref.save_changes'
       title: Vormgeving
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
@@ -37,11 +36,9 @@ core:
       forum_title_heading: 'Forum titel'
       home_page_heading: Homepage
       home_page_text: 'Kies de pagina die gebruikers voor het eerst te zien krijgen wanneer ze je forum bezoeken. Als je zelf een waarde typt, gebruik dan het path relatief aan de forum root.'
-      saved_message: 'De wijzigingen zijn opgeslagen.'
       show_language_selector_label: 'Toon taalkiezer'
       slug_driver_heading: 'Slug Driver: {model}'
       slug_driver_text: 'Selecteer een driver dat moet worden gebruikt om dit model te sluggen.'
-      submit_button: '=> core.ref.save_changes'
       title: Basis
       welcome_banner_heading: 'Welkom banner'
       welcome_banner_text: 'Configureer de tekst die wordt weergegeven in de banner op de ''Alle discussies'' pagina. Gebruik dit om je gasten welkom te heten.'
@@ -95,7 +92,6 @@ core:
       send_test_mail_success: 'Testmail succesvol verzonden!'
       send_test_mail_text: 'Hiermee wordt een e-mail met de bovenstaande configuratie naar uw e-mailadres gestuurd, {email}.'
       smtp_heading: 'SMTP instellingen'
-      submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Configureer bereiken'
@@ -114,7 +110,6 @@ core:
       no_settings: 'Deze extensie heeft geen instellingen.'
       open_modal: 'Open instellingen'
       permissions_title: Rechten
-      saved_message: 'Uw wijzigingen zijn opgeslagen.'
       uninstall_button: Deïnstalleren
     header:
       get_help: 'Krijg hulp'
@@ -167,11 +162,9 @@ core:
       sign_up_label: Registreren
       start_discussions_label: 'Start discussies'
       title: Permissies
-      view_discussions_label: 'Bekijk discussies'
       view_hidden_groups_label: 'Bekijk verborgen groepsbadges'
       view_last_seen_at_label: 'Bekijk gebruiker laatst gezien'
       view_post_ips_label: 'Bekijk IP adressen van bericht'
-      view_user_list_label: 'Bekijk gebruikerslijst'
     permissions_controls:
       allow_indefinitely_button: 'Voor onbepaalde tijd'
       allow_some_minutes_button: 'Voor {count} minuut|Voor {count} minuten'
@@ -255,19 +248,6 @@ core:
       mark_as_read_tooltip: 'Markeren als gelezen'
       replied_text: '{username} heeft {ago} gereageerd'
       started_text: '{username} heeft {ago} gereageerd'
-    edit_user:
-      activate_button: 'Activeer gebruiker'
-      email_heading: '=> core.ref.email'
-      email_label: '=> core.ref.email'
-      groups_heading: Groepen
-      nothing_available: 'Er is op dit moment niets beschikbaar dat u kunt bewerken.'
-      password_heading: '=> core.ref.password'
-      password_label: '=> core.ref.password'
-      set_password_label: 'Stel een nieuw wachtwoord in'
-      submit_button: '=> core.ref.save_changes'
-      title: 'Gebruiker bewerken'
-      username_heading: '=> core.ref.username'
-      username_label: '=> core.ref.username'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'

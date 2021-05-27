@@ -39,7 +39,6 @@ flarum-tags:
       create_secondary_tag_button: 'Maak secondaire categorie'
       primary_heading: 'Primaire categorieën'
       secondary_heading: 'Secundaire categorieën'
-      settings_button: Instellingen
   forum:
     all_tags:
       meta_description_text: 'Alle tags'
