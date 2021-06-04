@@ -171,7 +171,7 @@ core:
       view_post_ips_label: 'Bekijk IP adressen van bericht'
     permissions_controls:
       allow_indefinitely_button: 'Voor onbepaalde tijd'
-      allow_some_minutes_button: 'Voor {count} minuut|Voor {count} minuten'
+      allow_some_minutes_button: '{count, plural, one {Voor # minuut} other {Voor # minuten}}'
       allow_ten_minutes_button: 'Voor 10 minuten'
       allow_until_reply_button: 'Tot de volgende reactie'
       everyone_button: Iedereen
@@ -349,7 +349,7 @@ core:
       now_link: Nu
       original_post_link: 'Origineel bericht'
       unread_text: '{count} ongelezen'
-      viewing_text: '{index} van {count} bericht|{index} van {count} berichten'
+      viewing_text: '{count, plural, one {{index} van {formattedCount} bericht} other {{index} van {formattedCount} berichten}}'
     post_stream:
       discussion_renamed_old_tooltip: 'De titel was: "{old}"'
       discussion_renamed_text: '{username} heeft de titel veranderd naar {new}.'
@@ -489,7 +489,7 @@ core:
     save_changes: 'Wijzigingen opslaan'
     settings: Instellingen
     sign_up: Registreren
-    some_others: '{count} ander|{count} andere'
+    some_others: '{count, plural, one {# ander} other {# andere}}'
     start_a_discussion: 'Start een discussie'
     username: Gebruikersnaam
     users: Gebruikers
