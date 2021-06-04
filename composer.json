@@ -1,11 +1,14 @@
 {
-    "name": "michaelbelgium/flarum-dutch",
+    "name": "flarum-lang/dutch",
     "type": "flarum-extension",
     "description": "Dutch language pack for Flarum.",
-    "homepage": "https://github.com/michaelbelgium/flarum-dutch",
-    "keywords": ["locale", "dutch"],
+    "keywords": ["locale", "dutch", "flarum"],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Flarum Languages",
+            "homepage": "https://github.com/flarum-lang"
+        },
         {
             "name": "Rody Molenaar",
             "email": "rody.molenaar@xtrada.nl",
@@ -18,16 +21,10 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/michaelbelgium/flarum-dutch/issues",
-        "source": "https://github.com/michaelbelgium/flarum-dutch",
+        "issues": "https://github.com/flarum-lang/dutch/issues",
+        "source": "https://github.com/flarum-lang/flarum-dutch",
         "forum": "https://discuss.flarum.org/d/18962"
     },
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/sponsors/MichaelBelgium"
-        }
-    ],
     "require": {
         "flarum/core": "^0.1.0-beta.16"
     },
@@ -44,6 +41,9 @@
         "flarum-locale": {
             "code": "nl",
             "title": "Nederlands"
+        },
+        "extiverse": {
+            "discuss": "https://discuss.flarum.org/d/18962"
         }
     }
 }
