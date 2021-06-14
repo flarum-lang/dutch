@@ -22,7 +22,7 @@
     ],
     "support": {
         "issues": "https://github.com/flarum-lang/dutch/issues",
-        "source": "https://github.com/flarum-lang/flarum-dutch",
+        "source": "https://github.com/flarum-lang/dutch",
         "forum": "https://discuss.flarum.org/d/18962"
     },
     "require": {
