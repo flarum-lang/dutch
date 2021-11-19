@@ -177,7 +177,25 @@ v17development-flarum-support:
       overview:
         all_tickets: 'Alle tickets'
         description: 'Glimlach, jij bent de held die andere mensen hun dag redt.'
+        filter:
+          assignees:
+            search: 'Zoek persoon'
+            title: 'Filter op toegewezen persoon'
+            unassigned: 'Niet toegewezen'
+          language:
+            any: 'Elke taal'
+          status:
+            filter_count: '{count, plural, one {# filter} other {# filters}}'
+            title: 'Ticket status'
         no_tickets: 'Er zijn geen tickets die aan uw criteria voldoen, waarschijnlijk doet u het goed!'
+        refresh: Verversen
+        selection_closed: 'Gesloten tickets'
+        selection_unfiltered: Ongefilterd
+        sort:
+          least_recent: 'Minst recente activiteit'
+          newest: 'Nieuwste eerst'
+          oldest: 'Oudste eerst'
+          recent_activity: 'Recentste activiteit'
         title: 'Tickets overzicht'
       reminders_sent: '{count, plural, one {Een herinnering gestuurd} other {# herinneringen gestuurd}}'
       return_to_overview: 'Terug naar ticket overzicht'
