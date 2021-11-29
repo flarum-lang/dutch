@@ -190,6 +190,7 @@ v17development-flarum-support:
         no_tickets: 'Er zijn geen tickets die aan uw criteria voldoen, waarschijnlijk doet u het goed!'
         refresh: Verversen
         selection_closed: 'Gesloten tickets'
+        selection_open: 'Open tickets'
         selection_unfiltered: Ongefilterd
         sort:
           least_recent: 'Minst recente activiteit'

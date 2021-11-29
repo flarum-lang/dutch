@@ -110,6 +110,9 @@ core:
       no_settings: 'Deze extensie heeft geen instellingen.'
       open_modal: 'Open instellingen'
       permissions_title: Rechten
+      readme:
+        no_readme: 'Deze extensie lijkt geen README-bestand te hebben'
+        title: '{extName} documentatie'
       uninstall_button: Deïnstalleren
     header:
       get_help: 'Krijg hulp'
@@ -281,6 +284,8 @@ core:
       mark_as_read_tooltip: 'Markeren als gelezen'
       replied_text: '{username} heeft {ago} gereageerd'
       started_text: '{username} heeft {ago} gereageerd'
+      total_replies_a11y_label: '{count, plural, one {# antwoord} other {# antwoorden}}'
+      unread_replies_a11y_label: '{count, plural, one {# ongelezen antwoord} other {# ongelezen antwoorden}}. Markeer ongelezen {count, plural, one {bericht} other {berichten}} als gelezen.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -409,6 +414,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Bevestigings e-mail opnieuw sturen'
       sent_message: Verstuurd
+    welcome_hero:
+      hide: 'Welkomstbericht verbergen'
   group:
     admin: Administrator
     admins: Administrators
@@ -421,6 +428,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Verborgen
+    debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Toggle menu'
     edit_user:
@@ -428,6 +436,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Groepen
+      nothing_available: 'Je hebt geen rechten om deze gebruiker te bewerken.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Nieuw wachtwoord instellen'
@@ -440,10 +449,16 @@ core:
       generic_message: 'Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.'
       missing_dependencies_message: 'Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}'
       not_found_message: 'Het opgevraagde kon niet worden gevonden.'
+      payload_too_large_message: 'De payload van het verzoek was te groot.'
       permission_denied_message: 'Je hebt geen permissie om dat te doen.'
       rate_limit_exceeded_message: 'Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.'
+      render_failed_message: 'Sorry, er is een fout opgetreden bij het weergeven van deze inhoud. Wanneer je een gebruiker bent, probeer het dan later opnieuw. Als je een beheerder bent, kijk dan in je Flarum-logbestanden voor meer informatie.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    modal:
+      close: Sluiten
+    nav:
+      drawer_button: 'Open navigatie'
     number_suffix:
       kilo_text: K
       mega_text: M
