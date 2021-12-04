@@ -26,6 +26,8 @@ flarum-nicknames:
       nicknames_text: Bijnaam
     settings:
       change_nickname_button: '=> flarum-nicknames.ref.change_nickname'
+    sign_up:
+      nickname_placeholder: '=> flarum-nicknames.ref.nickname'
   ref:
     change_nickname: 'Verander bijnaam'
     nickname: Bijnaam

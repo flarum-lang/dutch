@@ -16,9 +16,9 @@ blomstra-payments:
       visible-from-description: "Het aantal dat je hier opgeeft betaalt welke berichten niet meer getoond worden in een discussie, daarna zal betaling benodigd zijn. Gebruik 0 om alle posts te vergergen, 1 voor de eerste reactie op de OP.\n"
     settings:
       link-access-portal: 'Voeg een link naar het toegangsportaal toe aan de gebruikersmenu'
-      pk: 'Publishable (api) key'
-      sk: 'Secret (api) key'
-      webhook-secret: 'Webhook signing secret'
+      pk: 'Publieke (api) key'
+      sk: 'Geheime (api) key'
+      webhook-secret: 'Webhook geheime ondertekening'
   forum:
     access-portal:
       options: opties

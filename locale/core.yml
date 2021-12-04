@@ -95,6 +95,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Configureer bereiken'
+      confirm_purge: 'Bij het opschonen zullen alle database-items en assets gerelateerd aan deze extensie verwijderd worden. Het zal de extensie niet verwijderen, dat moet via Composer. Weet je zeker dat je door wilt gaan?'
       confirm_uninstall: 'Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?'
       disabled: Uitgeschakeld
       enable_to_see: 'Schakel de extensie in om instellingen te bekijken en te wijzigen.'
@@ -110,7 +111,9 @@ core:
       no_settings: 'Deze extensie heeft geen instellingen.'
       open_modal: 'Open instellingen'
       permissions_title: Rechten
+      purge_button: Opschonen
       readme:
+        button_label: LEESMIJ
         no_readme: 'Deze extensie lijkt geen README-bestand te hebben'
         title: '{extName} documentatie'
       uninstall_button: Deïnstalleren
@@ -556,6 +559,9 @@ core:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Ben je zeker dat u wilt uitloggen uit {forum}?'
       title: '=> core.ref.log_out'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Pagina # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Pagina # - {forumName}}}'
     reset_password:
       confirm_password_label: 'Bevestig nieuw wachtwoord'
       new_password_label: 'Nieuw wachtwoord'
