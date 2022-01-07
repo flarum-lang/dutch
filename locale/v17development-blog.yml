@@ -29,7 +29,7 @@ v17development-flarum-blog:
       redirect_tags_text: 'Indien ingesteld zal deze extensie blogtags omleiden naar de blogcategorie URL.'
       redirects_heading: Omleidingen
       require_review_label: 'Blogartikelen moeten worden beoordeeld'
-      require_review_text: 'Wanneer je een artikel plaatst is deze niet direct zichtbaar en moet deze worden beoordeeld door een moderator.'
+      require_review_text: 'Bij plaatsing van een artikel zal deze niet direct zichtbaar zijn en moet het worden beoordeeld door een moderator.'
       select_categories_button: 'Selecteer blog categorieën'
       selected_category_count: '{count, plural, one {Je hebt # categorie geselecteerd} other {Je hebt # categorieën geselecteerd}}'
       show_tag_hierarchy_label: 'Toon taghiërarchie'
@@ -62,7 +62,7 @@ v17development-flarum-blog:
       write: Schrijven
     forum_nav: Forumnavigatie
     hidden: Verborgen
-    no_more_posts: 'Geen blogposts meer.'
+    no_more_posts: 'Er zijn geen blogartikelen meer.'
     read_more: 'Lees meer'
     recent_posts: 'Recente blogartikelen'
     return_to_overview: 'Terug naar het blogoverzicht '
