@@ -6,7 +6,11 @@ flarum-akismet:
   admin:
     akismet_settings:
       api_key_label: 'API sleutel'
+      delete_blatant_spam_help: 'Als Akismet heeft vastgesteld dat de opmerking flagrante spam is, verwijder de post automatisch in plaats van te markeren'
+      delete_blatant_spam_label: 'Overduidelijke spam automatisch verwijderen'
       title: 'Akismet instellingen'
+    permissions:
+      bypass_akismet: 'Akismet omzeilen'
   forum:
     post:
       akismet_flagged_text: 'Gedetecteerd als spam door Akismet'

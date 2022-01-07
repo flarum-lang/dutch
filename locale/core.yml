@@ -223,13 +223,13 @@ core:
     invalid_username_message: 'De gebruikersnaam mag alleen letters, cijfers en streepjes (-) bevatten.'
   email:
     activate_account:
-      body: "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zich aangemeld op {forum} met dit e-mailadres.\nAls jij dit was, klik dan op deze link om je account te activeren:\n{url}\n\nAls jij je niet hebt aangemeld, kan je deze e-mail negeren.\n"
+      body: "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zich aangemeld op {forum} met dit e-mailadres.\n\nAls jij dit was, klik dan op deze link om je account te activeren:\n{url}\n\nAls jij je niet hebt aangemeld, kan je deze e-mail negeren.\n"
       subject: 'Activeer je nieuwe account'
     confirm_email:
-      body: "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zijn e-mailadres op {forum} naar deze veranderd.\nAls jij dit was, klik dan op deze link om je e-mailadres te bevestigen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren.\n"
+      body: "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zijn e-mailadres op {forum} naar deze veranderd.\n\nAls jij dit was, klik dan op deze link om je e-mailadres te bevestigen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren.\n"
       subject: 'Bevestig je nieuwe e-mailadres'
     reset_password:
-      body: "Hoi {username}!\n\nIemand (hopelijk jij!) heeft aangegeven zijn wachtwoord te zijn vergeten op {forum}.\nAls jij dit was, klik dan op deze link om je wachtwoord opnieuw in te stellen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren. Dan gebeurt er niets.\n"
+      body: "Hoi {username}!\n\nIemand (hopelijk jij!) heeft aangegeven zijn wachtwoord te zijn vergeten op {forum}.\n\nAls jij dit was, klik dan op deze link om je wachtwoord opnieuw in te stellen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren. Dan gebeurt er niets.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
       body: "Hallo {username}!\n\nDit is een testmail om te bevestigen dat uw e-mailconfiguratie van Flarum correct werkt.\n\nAls u dit was, betekent deze e-mail dat uw configuratie werkt!\n\nAls u dit niet was, kunt u deze e-mail negeren.\n"
@@ -429,6 +429,8 @@ core:
     mod: Moderator
     mods: Moderators
   lib:
+    alert:
+      dismiss_a11y_label: 'Melding negeren'
     badge:
       hidden_tooltip: Verborgen
     debug_button: Debug
