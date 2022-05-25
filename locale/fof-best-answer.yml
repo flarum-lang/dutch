@@ -16,6 +16,7 @@ fof-best-answer:
       documentation: Documentatie
       enable_all_tags_button: 'Beste antwoorden op alle tags inschakelen'
       enable_all_tags_reminder_button: 'Herinneringen voor beste antwoorden op alle tags inschakelen'
+      introduction: "Schakel in welke tags de beste antwoorden in <code><a>flarum/tags</a></code> moeten ondersteunen, en optioneel welke tag(s) herinneringen moeten ondersteunen. Wanneer een tag is ingeschakeld voor Beste antwoord, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke tag die voor het beste antwoord is ingeschakeld), of per tag.\n"
       label:
         advanced: Geavanceerd
         general: Algemeen
@@ -28,6 +29,8 @@ fof-best-answer:
       schedule_stop_overnight_help: '21:00 - 8:00 servertijd'
       select_best_answer_reminder_days: Herinneringsfrequentie
       select_best_answer_reminder_days_help: 'Stuur een herinnering na een configureerbare hoeveelheid dagen naar de discussie starter om een Beste Antwoord te selecteren, 0 = herinneringen uitschakelen.'
+      show_filter_help: 'Voor tags waarvoor Beste antwoorden is ingeschakeld, kiest u ervoor om de filteroptie (on)opgelost weer te geven in de discussielijst'
+      show_filter_label: 'Beste antwoord-filter keuzelijst weergeven'
       use_alt_ui: 'Alternatieve weergave'
       use_alt_ui_help: 'Beste Antwoord knoppen toevoegen onderaan de post'
   email:
@@ -62,7 +65,10 @@ fof-best-answer:
       best_answer_in_discussion: '{username} heeft een beste antwoord geselecteerd in deze discussie'
       content: 'Selecteer een Beste Antwoord zodra je vraag is beantwoord'
       preferences:
-        awarded_best_answer: 'Wanneer iemand mijn bericht markeert als beste antwoord'
-        best_answer_in_discussion: 'Wanneer een beste antwoord wordt gegeven in een discussie waaraan ik heb deelgenomen'
+        awarded_best_answer: 'Iemand stelt mijn bericht in als beste antwoord'
+        best_answer_in_discussion: 'Een beste antwoord wordt gegeven in een discussie waaraan ik heb deelgenomen'
+        select_best_answer: 'Een automatische herinnering om het beste antwoord te selecteren in een discussie die ik ben begonnen'
     remove_best_answer: 'Beste antwoord ongedaan maken'
     this_best_answer: 'Selecteer als beste antwoord'
+    user:
+      best-answer-count: '{count, plural, one { {count} best antwoord} other {{count} beste antwoorden}}'
