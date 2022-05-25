@@ -16,3 +16,16 @@ flarum-markdown:
       spoiler_tooltip: 'Voeg een spoiler toe'
       strikethrough_tooltip: 'Voeg doorgestreepte tekst toe'
       unordered_list_tooltip: 'Niet ge-ordende lijst toevoegen'
+  lib:
+    composer:
+      bold_tooltip: 'Vetgedrukte tekst toevoegen'
+      code_tooltip: 'Voeg code in'
+      header_tooltip: 'Koptekst toevoegen'
+      image_tooltip: 'Afbeelding toevoegen'
+      italic_tooltip: 'Cursieve tekst toevoegen'
+      link_tooltip: 'Hyperlink toevoegen'
+      ordered_list_tooltip: 'Genummerde lijst toevoegen'
+      quote_tooltip: 'Citaat invoegen'
+      spoiler_tooltip: 'Spoiler invoegen'
+      strikethrough_tooltip: 'Doorgestreepte tekst toevoegen'
+      unordered_list_tooltip: 'Opsomminglijst toevoegen'
