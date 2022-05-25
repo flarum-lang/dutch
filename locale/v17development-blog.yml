@@ -10,6 +10,8 @@ v17development-flarum-blog:
       auto_approve_posts: 'Plaats artikelen zonder goedkeuring'
       write_articles: 'Schrijf en bewerk blogartikelen'
     settings:
+      add_hero_label: 'Welkomstbanner weergeven'
+      add_hero_text: 'Toon welkomstbanner op blogpagina''s als deze nog niet gesloten was.'
       add_sidebar_nav_label: 'Toevoegen aan zijbalknavigatie'
       add_sidebar_nav_text: 'Voeg een link naar de blog toe aan de zijbalknavigatie.'
       allow_comments_label: 'Reacties toestaan'
@@ -18,6 +20,8 @@ v17development-flarum-blog:
       categories_heading: Categorieën
       default_article_image_label: 'Standaard artikelafbeelding'
       default_article_image_text: 'Selecteer een standaard artikelafbeelding die zal worden weergeven wanneer er geen afbeelding is ingesteld.'
+      featured_count_label: 'Max uitgelichte berichten'
+      featured_count_text: 'Hoeveel berichten moeten in een groot raster bovenaan een blogpagina worden weergegeven?'
       hide_on_discussion_list_label: 'Niet weergeven in discussielijst'
       hide_on_discussion_list_text: 'Verberg blogartikelen van de discussielijst.'
       hide_tags_in_taglist_label: 'Verberg tags in de taglijst'

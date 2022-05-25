@@ -3,8 +3,18 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-nightmode:
+  admin:
+    settings:
+      modal:
+        default_theme: 'Standaard forumthema'
+        default_theme_helper: 'Het standaardthema wordt automatisch ingesteld voor nieuwe gebruikers, gasten en degenen die geen voorkeuren hebben ingesteld.'
+        theme_auto: '=> fof-nightmode.ref.auto'
+        theme_dark: '=> fof-nightmode.ref.dark'
+        theme_light: '=> fof-nightmode.ref.light'
   forum:
     day: Dagmodus
+    header:
+      nightmode_button: 'Forumthema wisselen'
     night: Nachtmodus
     user:
       settings:
@@ -14,9 +24,15 @@ fof-nightmode:
         device_specific_setting_checkbox: 'Gebruik per toestel instellingen'
         device_specific_setting_checkbox_tooltip: 'Je gekozen thema wordt individueel opgeslagen voor elk van je toestellen.'
         heading: Thema
+        option_descriptions:
+          auto: 'Uw thema wordt automatisch geselecteerd op basis van uw browser- of apparaatinstellingen. Als je bijvoorbeeld de donkere modus hebt ingeschakeld in iOS, zijn de forums ook donker.'
+          day: 'De klassieke ervaring die u gewend bent. Geliefd en getest.'
+          night: 'Je bent een beetje een nachtuil. Je waakt ''s nachts over het forum, terwijl de vogels slapen en de vossen jagen. Of je hebt gewoon liever de donkere kleuren!'
         options:
           auto: '=> fof-nightmode.ref.auto'
           day: '=> fof-nightmode.ref.light'
           night: '=> fof-nightmode.ref.dark'
   ref:
     auto: 'Automatisch (op basis van browser- of apparaatinstellingen)'
+    dark: Nachtmodus
+    light: Dagmodus
