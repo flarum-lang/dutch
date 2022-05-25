@@ -28,23 +28,23 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 
 |Extension|Translation Status|
 |---|---|
-|🪐 Core|[![Flarum Core](https://weblate.rob006.net/widgets/flarum/nl/core/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|✔ Akismet|[![Flarum Akismet](https://weblate.rob006.net/widgets/flarum/nl/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|☑ Approval|[![Flarum Approval](https://weblate.rob006.net/widgets/flarum/nl/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|😂 Emoji|[![Flarum Emoji](https://weblate.rob006.net/widgets/flarum/nl/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|🏴 Flags|[![Flarum Flags](https://weblate.rob006.net/widgets/flarum/nl/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|👍 Likes|[![Flarum Likes](https://weblate.rob006.net/widgets/flarum/nl/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|🔒Lock|[![Flarum Lock](https://weblate.rob006.net/widgets/flarum/nl/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|#️⃣ Markdown|[![Flarum Markdown](https://weblate.rob006.net/widgets/flarum/nl/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|💬 Mentions|[![Flarum Mentions](https://weblate.rob006.net/widgets/flarum/nl/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|🚼 Nicknames|[![Flarum Nicknames](https://weblate.rob006.net/widgets/flarum/nl/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|🆕 Pusher|[![Flarum Pusher](https://weblate.rob006.net/widgets/flarum/nl/flarum-pusher/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|👨‍💼 Statistics|[![Flarum Statistics](https://weblate.rob006.net/widgets/flarum/nl/flarum-statistics/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|📌 Sticky|[![Flarum Sticky](https://weblate.rob006.net/widgets/flarum/nl/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|🔔 Subscriptions|[![Flarum Subscriptions](https://weblate.rob006.net/widgets/flarum/nl/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|📨 Suspend|[![Flarum Suspend](https://weblate.rob006.net/widgets/flarum/nl/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|🏷️ Tags|[![Flarum Tags](https://weblate.rob006.net/widgets/flarum/nl/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
-|✅ Validation|[![Validation](https://weblate.rob006.net/widgets/flarum/nl/validation/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget)|
+|🪐 Core|[![Flarum Core](https://weblate.rob006.net/widgets/flarum/nl/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/nl/)|
+|✔ Akismet|[![Flarum Akismet](https://weblate.rob006.net/widgets/flarum/nl/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/nl/)|
+|☑ Approval|[![Flarum Approval](https://weblate.rob006.net/widgets/flarum/nl/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/nl/)|
+|😂 Emoji|[![Flarum Emoji](https://weblate.rob006.net/widgets/flarum/nl/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/nl/)|
+|🏴 Flags|[![Flarum Flags](https://weblate.rob006.net/widgets/flarum/nl/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/nl/)|
+|👍 Likes|[![Flarum Likes](https://weblate.rob006.net/widgets/flarum/nl/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/nl/)|
+|🔒Lock|[![Flarum Lock](https://weblate.rob006.net/widgets/flarum/nl/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/nl/)|
+|#️⃣ Markdown|[![Flarum Markdown](https://weblate.rob006.net/widgets/flarum/nl/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/nl/)|
+|💬 Mentions|[![Flarum Mentions](https://weblate.rob006.net/widgets/flarum/nl/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-mentions/nl/)|
+|🚼 Nicknames|[![Flarum Nicknames](https://weblate.rob006.net/widgets/flarum/nl/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-nicknames/nl/)|
+|🆕 Pusher|[![Flarum Pusher](https://weblate.rob006.net/widgets/flarum/nl/flarum-pusher/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-pusher/nl/)|
+|👨‍💼 Statistics|[![Flarum Statistics](https://weblate.rob006.net/widgets/flarum/nl/flarum-statistics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-statistics/nl/)|
+|📌 Sticky|[![Flarum Sticky](https://weblate.rob006.net/widgets/flarum/nl/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-sticky/nl/)|
+|🔔 Subscriptions|[![Flarum Subscriptions](https://weblate.rob006.net/widgets/flarum/nl/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/nl/)|
+|📨 Suspend|[![Flarum Suspend](https://weblate.rob006.net/widgets/flarum/nl/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-suspend/nl/)|
+|🏷️ Tags|[![Flarum Tags](https://weblate.rob006.net/widgets/flarum/nl/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/nl/)|
+|✅ Validation|[![Validation](https://weblate.rob006.net/widgets/flarum/nl/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/nl/)|
 
 
 ### Third party extensions
