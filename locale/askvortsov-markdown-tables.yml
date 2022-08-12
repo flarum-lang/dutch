@@ -6,4 +6,10 @@ askvortsov-markdown-tables:
   lib:
     composer:
       table_menu:
+        column: Kolom
+        insert_column_after: 'Kolom rechts invoegen'
+        insert_column_before: 'Kolom links invoegen'
+        label_cells: '# Label cellen?'
         num_cols: '# Kolommen'
+        num_rows: '# Rijen (inclusief koptekst)'
+        remove_column: 'Kolom verwijderen'
