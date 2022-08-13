@@ -3,6 +3,17 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-bookmarks:
+  admin:
+    settings:
+      independentButton: 'Bladwijzers weergeven in discussie-zijbalk in plaats van een keuzelijst'
   forum:
+    badge: Ge-bookmarked
     dropdownButton:
       add: 'Toevoegen aan favorieten'
+      remove: 'Verwijderen uit bladwijzers'
+    independentButton:
+      add: 'Toevoegen aan bladwijzers'
+      remove: Ge-bookmarked
+    page:
+      link: Bladwijzers
+      title: Bladwijzers

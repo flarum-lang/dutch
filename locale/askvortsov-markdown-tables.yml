@@ -9,7 +9,12 @@ askvortsov-markdown-tables:
         column: Kolom
         insert_column_after: 'Kolom rechts invoegen'
         insert_column_before: 'Kolom links invoegen'
+        insert_row_after: 'Rij rechts invoegen'
+        insert_row_before: 'Rij links invoegen'
         label_cells: '# Label cellen?'
         num_cols: '# Kolommen'
         num_rows: '# Rijen (inclusief koptekst)'
         remove_column: 'Kolom verwijderen'
+        remove_row: 'Rij verwijderen'
+        row: Rij
+      table_tooltip: Tabel
