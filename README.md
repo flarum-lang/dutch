@@ -23,7 +23,7 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 ```
 
 ## Information
-____
+
 
 | Component | Status |
 | --- | --- |
@@ -149,8 +149,8 @@ ____
 
 <!-- premium-extensions-list-stop -->
 
-
 If the extension you need is not translated yet, [learn more](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget) how to translate via our [Weblate instance](https://weblate.rob006.net/languages/nl/flarum/).
+
 
 
 ### License
