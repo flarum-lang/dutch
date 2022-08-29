@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-0.1.0 (XXXX-XX-XX)
+1.1.0 (XXXX-XX-XX)
 ------------------
 
 **General changes**:
@@ -76,6 +76,6 @@ CHANGELOG
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
-All changes: [v1.0...0.1.0](https://github.com/flarum-lang/dutch/compare/v1.0...0.1.0).
+All changes: [v1.0...v1.1.0](https://github.com/flarum-lang/dutch/compare/v1.0...v1.1.0).
 
 
