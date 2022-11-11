@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
