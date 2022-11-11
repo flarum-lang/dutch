@@ -12,6 +12,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
