@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.1.1 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Updated translations for extensions**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+All changes: [v1.1.0...v1.1.1](https://github.com/flarum-lang/dutch/compare/v1.1.0...v1.1.1).
+
+
 1.1.0 (2022-11-11)
 ------------------
 
