@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.1.2 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Updated translations for extensions**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+All changes: [v1.1.1...v1.1.2](https://github.com/flarum-lang/dutch/compare/v1.1.1...v1.1.2).
+
+
 1.1.1 (2022-11-11)
 ------------------
 
