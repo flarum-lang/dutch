@@ -43,6 +43,19 @@ v17development-flarum-blog:
       slug: Slug
       summary: Samenvatting
       title: Titel
+    article_settings:
+      fields:
+        highlight:
+          helper_text: 'Geef dit bericht een grote afbeelding op de blogoverzichtspagina.'
+          title: 'Uitgelicht bericht'
+        image:
+          helper_text: 'Beste beeldresolutie voor sociale media: 1200x630'
+          title: 'Artikel afbeelding'
+        summary:
+          helper_text: 'Deze samenvatting is zichtbaar op de overzichtspagina van de blog en wordt gebruikt voor SEO-doeleinden.'
+          placeholder: 'Voer een samenvatting in'
+          title: 'Samenvatting artikel'
+      title: 'Instellingen voor blogberichten'
     blog: Blog
     categories: Categorieën
     category_empty: 'Er zijn geen blogartikelen in deze categorie.'

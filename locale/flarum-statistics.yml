@@ -18,6 +18,7 @@ flarum-statistics:
       custom_label: 'Kies aangepast bereik...'
       custom_label_specified: '{fromDate} tot {toDate}'
       discussions_heading: '=> core.ref.discussions'
+      export_chart_button: 'Grafiek exporteren naar SVG'
       last_12_months_label: 'Laatste 12 maanden'
       last_28_days_label: 'Laatste 28 dagen'
       last_7_days_label: 'Laatste 7 dagen'

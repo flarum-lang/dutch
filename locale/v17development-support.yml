@@ -87,6 +87,13 @@ v17development-flarum-support:
       description: 'Sorry, dit artikel of deze categorie bestaat niet meer op deze plaats.'
       solution: 'U kunt het bovenstaande zoekvak gebruiken om te vinden waar u naar op zoek was.'
       title: 'Item niet gevonden'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Iemand heeft gereageerd op mijn ticket'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Mijn ticket is opgelost'
     or: of
     overview:
       back_to: 'Terug naar {category}'
@@ -101,6 +108,7 @@ v17development-flarum-support:
         change_icon: 'Bewerk icoon'
         edit_description: 'Bewerk beschrijving'
         new_article: 'Nieuw artikel'
+        recount_articles: 'Artikelen hertellen'
         rename_category: 'Hernoem categorie'
     reopen: 'Opnieuw openen'
     return_to_home: 'Terug naar de kennisbank startpagina'
@@ -139,6 +147,10 @@ v17development-flarum-support:
         not_allowed: 'U kunt nu geen nieuw supportticket openen'
         private_support: 'Voor privéondersteuning kunt u dit formulier gebruiken om een nieuw ticket aan te maken op ons ondersteuningsplatform. Raadpleeg <a>onze openbare forums</a> voor kwesties die niet privé zijn.'
         title: 'Schrijf een nieuw ticket'
+      convert_to_discussion:
+        button: 'Converteer naar discussie'
+        confirm: 'Weet je zeker dat je dit ticket wilt omzetten in een openbare discussie? Als iemand privé-informatie heeft gedeeld, wordt deze ook openbaar.'
+        event: "Ticket {ticket_title} is omgezet in discussie\n\nWil je nu naar deze discussie?\n"
       convert_to_ticket:
         button: 'Omzetten naar ticket'
         confirm: 'Weet je zeker dat je deze discussie wilt omzetten naar een ticket?'
@@ -155,6 +167,12 @@ v17development-flarum-support:
           empty: 'Geen taal geselecteerd'
           placeholder: 'Selecteer een taal'
           title: Taal
+        private_note:
+          edit_button: 'Notitie bewerken'
+          info: 'Privénotities zijn alleen zichtbaar voor andere ondersteuningsagenten. Het is niet zichtbaar voor de klant.'
+          placeholder: 'Voorbeeld: 1 jan. 2022 - Naam agent: Klant verwijderd uit database'
+          tip: 'TIP: Als u met meerdere agenten aan één ticket werkt, voeg dan uw naam en datum toe aan een notitie.'
+          title: 'Privé notities'
         status:
           placeholder: 'De status van dit ticket'
           title: Status
@@ -236,6 +254,7 @@ v17development-flarum-support:
         assign_me: 'Aan mij toewijzen'
         close_ticket: 'Ticket sluiten'
         remove_me: 'Mij verwijderen'
+        update_note: 'Privénotitie bijwerken'
         update_status: 'Ticketstatus updaten'
         update_subject: 'Onderwerp aanpassen'
         view_ticket: 'Bekijk ticket'
