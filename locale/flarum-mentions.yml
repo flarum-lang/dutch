@@ -25,12 +25,16 @@ flarum-mentions:
       reply_to_post_text: 'Reageer op #{number}'
     group_mention:
       deleted_text: '[onbekende groep]'
+    mentioned_by:
+      load_more_button: '=> core.ref.load_more'
+      title: 'Reacties op dit bericht'
     notifications:
       group_mentioned_text: '{username} vermelde een groep waarvan je lid bent'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} heeft gereageerd op je bericht'
       user_mentioned_text: '{username} heeft je genoemd'
     post:
+      mentioned_by_more_text: 'Nog {count} reacties.'
       mentioned_by_self_text: '{count, plural, one {{users} hebt hierop gereageerd} other {{users} hebben hierop gereageerd}}.'
       mentioned_by_text: '{count, plural, one {{users} heeft hierop gereageerd} other {{users} hebben hierop gereageerd}}.'
       others_text: '=> core.ref.some_others'

@@ -21,6 +21,7 @@ flarum-likes:
       unlike_link: 'Niet leuk'
       you_text: '=> core.ref.you'
     post_likes:
+      load_more_button: '=> core.ref.load_more'
       title: 'Gebruikers die dit leuk vinden'
     settings:
       notify_post_liked_label: 'Iemand vindt een van mijn berichten leuk'
