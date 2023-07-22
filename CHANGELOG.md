@@ -10,6 +10,17 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Updated translations for extensions**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
 All changes: [v1.1.2...v1.1.3](https://github.com/flarum-lang/dutch/compare/v1.1.2...v1.1.3).
 
 
