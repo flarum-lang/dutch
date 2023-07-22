@@ -12,7 +12,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
