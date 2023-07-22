@@ -49,7 +49,7 @@ core:
       email_confirmed_label: 'Vereisen dat de gebruiker deze e-mail bevestigt'
       email_placeholder: '=> core.ref.email'
       password_placeholder: '=> core.ref.password'
-      submit_and_create_another_button: 'Creëer en voeg een andere toe.'
+      submit_and_create_another_button: 'Creëer en voeg een andere toe'
       submit_button: 'Maak gebruiker aan'
       title: 'Maak nieuwe gebruiker aan'
       use_random_password: 'Genereer willekeurig wachtwoord'
@@ -156,7 +156,7 @@ core:
         authentication: Authenticatie
         core: 'Core Configuratie'
         discussion: Discussie
-        feature: Features
+        feature: Functies
         formatting: Formattering
         language: Talen
         moderation: Moderatie
@@ -195,7 +195,7 @@ core:
       read_heading: Lezen
       rename_discussions_label: 'Discussies hernoemen'
       reply_to_discussions_label: 'Reageren op discussies'
-      search_users_label: 'Gebruikers zoeken'
+      search_users_label: '=> core.ref.search_users'
       sign_up_label: Registreren
       start_discussions_label: 'Start discussies'
       title: Permissies
@@ -205,6 +205,7 @@ core:
       view_post_ips_label: 'Bekijk IP adressen van bericht'
     permissions_controls:
       allow_indefinitely_button: 'Voor onbepaalde tijd'
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count, plural, one {Voor # minuut} other {Voor # minuten}}'
       allow_ten_minutes_button: 'Voor 10 minuten'
       allow_until_reply_button: 'Tot de volgende reactie'
@@ -219,9 +220,12 @@ core:
       remove_button: Verwijderen
       upload_button: 'Afbeelding kiezen...'
     users:
+      create_user_button: 'Nieuwe gebruiker'
       description: 'Een gepagineerde lijst van alle gebruikers op je forum.'
       grid:
         columns:
+          display_name:
+            title: Weergavenaam
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -243,11 +247,19 @@ core:
         invalid_column_content: Ongeldig
       pagination:
         back_button: 'Vorige pagina'
+        first_button: 'Ga naar de eerste pagina'
+        go_to_page_textbox_a11y_label: 'Ga direct naar paginanummer'
+        last_button: 'Ga naar laatste pagina'
         next_button: 'Volgende pagina'
         page_counter: 'Pagina {current} van {total}'
+      search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Aantal gebruikers: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'Filter {filter} moet numeriek zijn.'
+      must_not_be_array_message: 'Filter {filter} mag geen array zijn.'
+      must_not_be_multidimensional_array_message: 'Filter {filter} mag geen multidimensionale array zijn.'
     invalid_username_message: 'De gebruikersnaam mag alleen letters, cijfers en streepjes (-) bevatten.'
   email:
     activate_account:
@@ -392,7 +404,7 @@ core:
       viewing_text: '{count, plural, one {{index} van {formattedCount} bericht} other {{index} van {formattedCount} berichten}}'
     post_stream:
       discussion_renamed_old_tooltip: 'De titel was: "{old}"'
-      discussion_renamed_text: '{username} heeft de titel veranderd naar {new}.'
+      discussion_renamed_text: '{username} heeft de titel veranderd naar {new} {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} later'
@@ -403,6 +415,38 @@ core:
       all_discussions_button: 'Zoek in alle discussies naar "{query}"'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} op {os}'
+      cannot_terminate_current_session: 'Kan de huidige actieve sessie niet beëindigen. Log in plaats daarvan uit.'
+      created: Aangemaakt
+      current_active_session: 'Huidige actieve sessie'
+      developer_tokens_heading: Ontwikkelaarstokens
+      empty_text: 'Het lijkt alsof hier niets te zien is.'
+      global_logout:
+        heading: 'Globaal uitloggen'
+        help_text: 'Wist de huidige cookiesessie, beëindigt alle sessies, trekt ontwikkelaarstokens in en maakt alle e-mailbevestigingen of wachtwoordreset-e-mails ongeldig.'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Verberg token'
+      last_activity: 'Laatste activiteit'
+      never: '=> core.ref.never'
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Token aanmaken'
+        title: '=> core.ref.new_token'
+        title_placeholder: Titel
+      revoke_access_token: Intrekken
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Sessie beëindigd} other {# Sessies beëindigd}}.'
+      session_termination_failed: 'Er is een fout opgetreden bij het beëindigen van uw sessies.'
+      sessions_heading: 'Actieve sessies'
+      show_access_token: 'Bekijk token'
+      terminate_all_other_sessions: 'Beëindig alle andere sessies'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Beëindigen
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Token ingetrokken.'
+      token_title_placeholder: /
     settings:
       account_heading: Account
       change_email_button: '=> core.ref.change_email'
@@ -435,6 +479,7 @@ core:
       posts_empty_text: 'Zo te zien zijn er hier geen berichten.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Acties
@@ -464,6 +509,8 @@ core:
       dismiss_a11y_label: 'Melding negeren'
     badge:
       hidden_tooltip: Verborgen
+    data_segment:
+      label: '{label}:'
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Toggle menu'
@@ -481,8 +528,10 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Circulaire afhankelijkheden gedetecteerd: {extensions}. Afbreken. Schakel één van de extensies uit en probeer het opnieuw.'
       dependent_extensions_message: 'Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}'
       extension_initialiation_failed_message: '{extension} kan niet worden geïnitialiseerd, controleer de browserconsole voor meer informatie.'
+      generic_cross_origin_message: 'Oeps! Er is iets misgegaan tijdens een cross-origin verzoek. Laad de pagina opnieuw en probeer het opnieuw.'
       generic_message: 'Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.'
       missing_dependencies_message: 'Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}'
       not_found_message: 'Het opgevraagde kon niet worden gevonden.'
@@ -527,6 +576,7 @@ core:
     edit_user: 'Wijzig gebruiker'
     email: E-mail
     extensions: Extensies
+    generic_confirmation_message: 'Weet je zeker dat je verder wilt gaan? Deze actie kan niet ongedaan gemaakt worden.'
     icon: Icoon
     icon_text: 'Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix.'
     load_more: 'Meer laden'
@@ -534,6 +584,8 @@ core:
     log_in: Inloggen
     log_out: Uitloggen
     mark_all_as_read: 'Alles als gelezen markeren'
+    never: Nooit
+    new_token: 'Nieuw token'
     next_page: 'Volgende pagina'
     notifications: Notificaties
     okay: Oké
@@ -546,6 +598,8 @@ core:
     reset_your_password: 'Wachtwoord opnieuw instellen'
     restore: Terugzetten
     save_changes: 'Wijzigingen opslaan'
+    search_users: 'Zoek gebruikers'
+    security: Beveiliging
     settings: Instellingen
     sign_up: Registreren
     some_others: '{count, plural, one {# ander} other {# andere}}'
