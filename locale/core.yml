@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Eigen header'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'De @import en data-uri opties zijn niet toegestaan in aangepaste LESS.'
       custom_styles_heading: 'Eigen stijl'
       custom_styles_text: 'Pas je forum''s uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum''s standaard stijl.'
       dark_mode_label: 'Donkere stijl'
@@ -44,10 +45,28 @@ core:
       title: Basis
       welcome_banner_heading: 'Welkom banner'
       welcome_banner_text: 'Configureer de tekst die wordt weergegeven in de banner op de ''Alle discussies'' pagina. Gebruik dit om je gasten welkom te heten.'
+    create_user:
+      email_confirmed_label: 'Vereisen dat de gebruiker deze e-mail bevestigt'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Creëer en voeg een andere toe.'
+      submit_button: 'Maak gebruiker aan'
+      title: 'Maak nieuwe gebruiker aan'
+      use_random_password: 'Genereer willekeurig wachtwoord'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Cache wissen'
       description: 'Uw forum in één oogopslag.'
       io_error_message: 'Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI.'
+      status:
+        headers:
+          queue-driver: 'Wachtrij Driver'
+          scheduler-status: Inplanner
+          session-driver: 'Sessie Driver'
+        scheduler:
+          active: Actief
+          inactive: Inactief
+          never-run: 'Nooit uitvoeren'
       title: Dashboard
       tools_button: Hulpmiddelen
     debug-warning:
@@ -153,8 +172,10 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Sta toe om eigen posts te verwijderen'
       allow_post_editing_label: 'Sta bericht bewerking toe'
       allow_renaming_label: 'Sta hernoemen toe'
+      create_access_token_label: 'Creëer toegangscode'
       create_heading: Maak
       delete_discussions_forever_label: 'Verwijder discussies permanent'
       delete_discussions_label: 'Verwijder discussies'
@@ -166,6 +187,7 @@ core:
       edit_users_groups_label: 'Bewerk gebruikersgroepen'
       edit_users_label: 'Wijzig gebruikers'
       global_heading: Globaal
+      moderate_access_tokens_label: 'Modereer toegangscodes'
       moderate_heading: Moderatie
       new_group_button: 'Nieuwe groep'
       participate_heading: Meedoen
