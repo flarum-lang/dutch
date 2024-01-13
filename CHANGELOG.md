@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.1.4 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+
+
+All changes: [v1.1.3...v1.1.4](https://github.com/flarum-lang/dutch/compare/v1.1.3...v1.1.4).
+
+
 1.1.3 (2023-07-22)
 ------------------
 
