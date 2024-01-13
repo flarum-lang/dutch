@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/nl/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Verwijderd het abonnement van de gebruiker op de tag.'
+        export_description: 'Exporteert details van het abonnementsniveau voor een tag, indien aanwezig.'
 fof-follow-tags:
   admin:
     settings:
@@ -20,7 +26,7 @@ fof-follow-tags:
   forum:
     badge:
       following_tag_tooltip: Volgend
-      lurking_tag_tooltip: Lurken
+      lurking_tag_tooltip: 'In de gaten houden'
     index:
       follow_tag_button: Volgen
       following:
@@ -39,6 +45,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Geattendeerd worden op alle nieuwe discussies.'
+      header: 'Abonnement voor {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Verberg discussie op Alle Discussies pagina.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -49,6 +56,8 @@ fof-follow-tags:
       not_following_text: 'Notificaties alleen wanneer @mentioned.'
       notify_alert_tooltip: 'Ontvang een forum notificatie wanneer er nieuwe discussies of reacties zijn'
       notify_email_tooltip: 'Ontvang een email wanneer en nieuwe discussies of reacties zijn'
+      submit_button: 'Bevestig abonnement'
+      subscription_label: 'Selecteer je abonnement voor {tagName}'
     user:
       settings:
         filter_label: 'Standaard weergave op de "Volgen" pagina'

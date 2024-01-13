@@ -5,11 +5,14 @@
 fof-user-bio:
   admin:
     permission:
-      editAny: 'Wijzig elk profiel'
-      editOwn: 'Wijzig eigen profiel'
-      view: 'Bekijk profiel'
+      editAny: 'Wijzig elk biografie'
+      editOwn: 'Wijzig eigen biografie'
+      view: 'Bekijk biografie'
     setting:
-      bioLimit: 'Maximum aantal tekens profiel'
+      allowFormatting: 'Opmaak in bio toestaan'
+      allowFormatting_help: 'Door het ontwerp staat deze opmaak los van de postopmaak. Als de BBCode- en/of Markdown-extensies zijn ingeschakeld, zijn ze beschikbaar om de biografie te formatteren. Afbeeldingen of insluitingen zijn niet toegestaan. Extensies die bijdragen aan de Flarum-formatter moeten *expliciet* ondersteuning voor de bio-formatter toevoegen.'
+      bioLimit: 'Maximum aantal tekens biografie'
+      maxLines: 'Maximaal aantal regels dat tegelijk kan worden weergegeven'
   forum:
     userbioPlaceholder: 'Schrijf iets over jezelf'
     userbioPlaceholderOtherUser: 'Schrijf informatie over {username}'
