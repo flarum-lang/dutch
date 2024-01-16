@@ -17,6 +17,7 @@ askvortsov-categories:
       full_page_desktop: 'Moet het navigatiemenu in de zijbalk worden samengevouwen tot een rij (zoals de traditionele categorieën pagina)? Hierdoor worden ook widgets (zoals Friends of Flarum Forum Statistics) verborgen in de navigatiebalk van de categorieënpagina.'
       small_forum_optimized: 'Dit geeft een nauwkeuriger aantal discussies/berichten, maar vertraagt middelgrote en grote forums dramatisch.'
     labels:
+      child_bare_icon: 'Bare child icons?'
       compact_mobile_mode: 'Compacte mobiele modus'
       full_page_desktop: 'Volledige pagina op desktop?'
       keep_tags_nav: 'De link naar de categorieënpagina in de navigatiezijbalk behouden?'
