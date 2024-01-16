@@ -2,8 +2,15 @@ CHANGELOG
 =========
 
 
-1.1.4 (XXXX-XX-XX)
+1.2.0 (XXXX-XX-XX)
 ------------------
+
+**Added support for new extensions**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
 
 **Updated translations for extensions**:
 
@@ -11,7 +18,7 @@ CHANGELOG
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 
 
-All changes: [v1.1.3...v1.1.4](https://github.com/flarum-lang/dutch/compare/v1.1.3...v1.1.4).
+All changes: [v1.1.3...v1.2.0](https://github.com/flarum-lang/dutch/compare/v1.1.3...v1.2.0).
 
 
 1.1.3 (2023-07-22)
