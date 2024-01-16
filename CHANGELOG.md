@@ -14,6 +14,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 
