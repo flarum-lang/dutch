@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.2.1 (2024-01-16)
+------------------
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
+
+
+All changes: [v1.2.0...v1.2.1](https://github.com/flarum-lang/dutch/compare/v1.2.0...v1.2.1).
+
+
 1.2.0 (2024-01-16)
 ------------------
 
