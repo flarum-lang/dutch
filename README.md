@@ -143,12 +143,12 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 
 | Extension | Status |
 | --- | --- |
-| [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/blomstra-payments/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-payments/nl/) |
-| [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/nl/) |
-| [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/datitisev-backup/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-backup/nl/) |
-| [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/datitisev-maintenance/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-maintenance/nl/) |
-| [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/datitisev-webhooks-pro/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-webhooks-pro/nl/) |
-| [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/nl/) |
+| [`blomstra/payments`](https://flarum.org/extension/blomstra/payments) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/blomstra-payments/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-payments/nl/) |
+| [`blomstra/readme`](https://flarum.org/extension/blomstra/readme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/nl/) |
+| [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/datitisev-backup/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-backup/nl/) |
+| [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/datitisev-maintenance/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-maintenance/nl/) |
+| [`datitisev/flarum-webhooks-pro`](https://flarum.org/extension/datitisev/flarum-webhooks-pro) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/datitisev-webhooks-pro/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-webhooks-pro/nl/) |
+| [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/nl/) |
 
 <!-- premium-extensions-list-stop -->
 
