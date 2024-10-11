@@ -12,7 +12,12 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`blomstra/readme`](https://flarum.org/extension/blomstra/readme)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 
 
 All changes: [v1.2.1...v1.2.2](https://github.com/flarum-lang/dutch/compare/v1.2.1...v1.2.2).
