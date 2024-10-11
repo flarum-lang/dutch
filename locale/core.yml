@@ -106,7 +106,7 @@ core:
       mail_host_label: Host
       mail_mailgun_domain_label: Domein
       mail_mailgun_region_label: Regio
-      mail_mailgun_secret_label: 'Privé sleutel'
+      mail_mailgun_secret_label: Privésleutel
       mail_password_label: '=> core.ref.password'
       mail_port_label: Poort
       mail_username_label: '=> core.ref.username'
@@ -239,6 +239,8 @@ core:
             title: Groepen
           join_time:
             title: Aangesloten
+          user_actions:
+            title: Acties
           user_id:
             title: ID
           username:
@@ -511,6 +513,10 @@ core:
       hidden_tooltip: Verborgen
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'D MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Toggle menu'
