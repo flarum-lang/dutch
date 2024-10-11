@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.2.2 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+All changes: [v1.2.1...v1.2.2](https://github.com/flarum-lang/dutch/compare/v1.2.1...v1.2.2).
+
+
 1.2.1 (2024-01-16)
 ------------------
 
