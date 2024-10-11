@@ -4,4 +4,7 @@
 
 blomstra-readme:
   admin:
+    modal:
+      no_readme: 'Deze extensie lijkt geen README-bestand te hebben'
+      title: '{displayName} LEESMIJ'
     readme_button_label: LEESMIJ

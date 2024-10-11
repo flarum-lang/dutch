@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 'Maximum aantal tekens biografie'
       maxLines: 'Maximaal aantal regels dat tegelijk kan worden weergegeven'
   forum:
+    profile:
+      cancel_button: Annuleren
+      cancel_confirm: 'Weet je zeker dat je het bewerken van je biografie wilt annuleren? Alle wijzigingen die u heeft aangebracht, gaan verloren.'
+      edit_bio_label: 'Wijzig biografie'
+      save_button: Opslaan
     userbioPlaceholder: 'Schrijf iets over jezelf'
     userbioPlaceholderOtherUser: 'Schrijf informatie over {username}'

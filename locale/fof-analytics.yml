@@ -4,6 +4,29 @@
 
 fof-analytics:
   admin:
+    matomo-widget:
+      title: Matomo
     popup:
+      field:
+        googleGTMCode: 'GTM-code-ID (optioneel)'
+        googleTrackingCode: Trackingcode-ID
+        optTrackingCode: 'Optimaliseer trackingcode (optioneel)'
+        piwikAliasUrl: 'Alias URL'
+        piwikAuthToken: Authenticatietoken
+        piwikHideAliasUrl: 'Verberg in het rapport ''Outlinks'' klikken naar bekende alias-URL''s'
+        piwikPrependDomain: 'Voeg tijdens het bijhouden het sitedomein vóór de paginatitel toe'
+        piwikSiteId: Site-ID
+        piwikTrackAccounts: 'Volg individuele gebruikersaccounts'
+        piwikTrackSubdomain: 'Volg bezoekers over alle subdomeinen van Flarum'
+        piwikUrl: 'Matomo-domein of URL'
+        statusGoogle: 'Schakel Google Analytics in (UA/GA4)'
+        statusPiwik: 'Schakel Matomo in'
+      placeholder:
+        piwikAuthToken: "Vul dit token in om een Matomo-statistiekenwidget in het beheerderspaneel in te schakelen.\nJe kunt het vinden in Instellingen > Persoonlijk > API-authenticatietoken.\n"
       section:
         googleAnalytics: 'Google Analytics'
+        piwik: Matomo
+      trackAccounts:
+        email: 'Volg via e-mail'
+        none: 'Niet volgen'
+        username: 'Volg op gebruikersnaam'
