@@ -10,6 +10,11 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Updated translations for extensions**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+
+
 All changes: [v1.2.1...v1.2.2](https://github.com/flarum-lang/dutch/compare/v1.2.1...v1.2.2).
 
 
