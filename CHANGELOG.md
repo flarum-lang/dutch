@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.3.0 (2024-11-07)
+------------------
+
+**Added support for new extensions**:
+
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+All changes: [v1.2.2...v1.3.0](https://github.com/flarum-lang/dutch/compare/v1.2.2...v1.3.0).
+
+
 1.2.2 (2024-10-12)
 ------------------
 
