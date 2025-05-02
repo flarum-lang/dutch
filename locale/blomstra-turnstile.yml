@@ -5,4 +5,4 @@
 blomstra-turnstile:
   admin:
     settings:
-      help_text: 'Genereer Turnstile-sleutels op je Cloudflare account <a>hier</a>'
+      help_text: 'Genereer Turnstile-sleutels op je Cloudflare account <a>hier</a>.'

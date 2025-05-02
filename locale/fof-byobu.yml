@@ -19,8 +19,14 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Indien ingeschakeld worden privégesprekken permanent uit de database verwijderd wanneer de laatste gebruiker vertrekt. Anders worden privégesprekken tijdelijk verwijderd/verborgen.'
       enable-make-public-option: 'Schakel de mogelijkheid "openbaar maken" in'
       enable-make-public-option-help: 'Voegt de mogelijkheid toe voor degenen met toestemming om alle ontvangers te verwijderen, een nieuwe tag toe te wijzen en het gesprek openbaar zichtbaar te maken (volgens de zichtbaarheidsinstellingen van de gekozen tag).'
+      general:
+        heading: 'Algemene instellingen'
+        help: 'Met deze instellingen bepaalt u de basisfuncties van byobu.'
       hide_from_all_discussions_page: 'Verberg privégesprekken van de pagina "Alle discussies"'
       hide_from_all_discussions_page_help: 'Privégesprekken zijn alleen toegankelijk via de pagina "Privégesprekken" of het gebruikersprofiel'
+      icon:
+        heading: Icooninstellingen
+        help: 'Deze instellingen bepalen welke byobu iconen op het forum worden gebruikt.'
       post-event-icon: 'Byobu bericht evenementen'
   email:
     body:
@@ -50,6 +56,8 @@ fof-byobu:
       title_placeholder: Titel
     confirm:
       make_public: 'Weet u zeker dat u de ontvangers wilt verwijderen en deze discussie zichtbaar wilt maken voor iedereen die de toegewezen tag kan bekijken?'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Zoek de ontvanger door de eerste drie tekens te typen...'
     labels:

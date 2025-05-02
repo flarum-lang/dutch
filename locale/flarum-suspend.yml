@@ -39,3 +39,6 @@ flarum-suspend:
       suspended_tooltip: Geschorst
     user_controls:
       suspend_button: Opschorten
+  validation:
+    attributes:
+      suspendedUntil: 'schorsen tot'

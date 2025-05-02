@@ -12,10 +12,14 @@ fof-default-user-preferences:
 fof-nightmode:
   admin:
     settings:
+      general:
+        heading: 'Algemene instellingen'
+        help: 'Deze instellingen bepalen het basisgedrag van de extensie.'
       modal:
         always_show_theme_toggle_on_header: 'Altijd de knop tronen voor het wisselen van thema''s in de forumheader'
         default_theme: 'Standaard forumthema'
         default_theme_helper: 'Het standaardthema wordt automatisch ingesteld voor nieuwe gebruikers, gasten en degenen die geen voorkeuren hebben ingesteld.'
+        show_theme_toggle_in_solid: 'Thema-icoon weergeven in solid icoon'
         theme_auto: '=> fof-nightmode.ref.auto'
         theme_dark: '=> fof-nightmode.ref.dark'
         theme_light: '=> fof-nightmode.ref.light'

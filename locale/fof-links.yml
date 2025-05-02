@@ -24,9 +24,15 @@ fof-links:
       url_placeholder: '=> fof-links.ref.url'
       use_rel_me: 'Voeg het <code>rel="me"</code> attribuut toe voor identiteitsverificatie op andere sites'
       visibility: 'Link zichtbaarheid'
+      visibility.guest-only.help: 'Alleen {guest} kan deze link zien. De bovenstaande rechten moeten worden ingesteld op ''{everyone}''.'
+      visibility.guest-only.label: 'alleen {guest} ?'
+      visibility.help: 'Links zijn standaard alleen zichtbaar voor <code>{admin}</code>-gebruikers. Pas de rechten aan om te bepalen wie deze link mag zien.'
+      visibility.help-disabled: 'Sla de koppeling op voordat u de zichtbaarheidsinstellingen wijzigt.'
+      visibility.label: 'Zichtbaarheid van koppelingen'
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
+      preconfigured: 'De links op dit forum zijn vooraf geconfigureerd en kunnen hier niet worden bewerkt.'
     settings:
       show_icons_only_on_tablet: 'Pictogrammen alleen weergeven op tabletschermen'
   ref:
