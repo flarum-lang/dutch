@@ -20,6 +20,10 @@ blomstra-payments:
       sk: 'Geheime (api) key'
       webhook-secret: 'Webhook geheime ondertekening'
   forum:
+    accept-terms-modal:
+      accept_label: 'Ik heb de <link>betaalvoorwaarden</link> gelezen en accepteer deze.'
+      continue_button: 'Ga door met betalen'
+      title: 'Accepteer voorwaarden'
     access-portal:
       options: opties
       purchase: 'schaf aan'
@@ -27,15 +31,25 @@ blomstra-payments:
       access_portal: Toegangsportaal
     pay-to-post:
       purchase: 'Betaal om te Publiceren'
-      purchase-control: 'Betaal om te Publiceren'
+      purchase-control: 'Betaal om te publiceren'
       purchase_required: "Deze discussie zal gepubliceerd worden wanneer betaling via onze betalingsprovider Stripe voldaan is. Klik om de kosten en betaalopties in te zien.\n"
     pay-to-view:
-      description: "Vervolgberichten zijn vergrendeld achter een betalingsmuur, je kan ze ontsluiten door een betaling te voldoen via onze betalingsprovider Stripe.\n"
+      description: "Vervolgberichten zijn vergrendeld achter een betaalmuur, je kunt ze ontsluiten door een betaling te doen via onze betalingsprovider Stripe.\n"
       purchase-completed: Ontsloten
-      purchase-control: 'Betaal om te Bekijken'
-      purchase-log-in: 'Log In & Betaal om te Bekijken'
+      purchase-control: 'Betaal om te bekijken'
+      purchase-log-in: 'Log in & betaal om te bekijken'
     payment-options-modal:
       description: "Kies uit de volgende opties om toegang to verkrijgen tot de groep. Je wordt doorgestuurd naar onze betalingsprovider Stripe voor het verwerken van de betaling.\n"
       title: 'Betalingsopties om toegang te verkrijgen tot {group}'
+    stripe:
+      interval_once: eenmalig
+    subscription-card:
+      cancel-control: Annuleer
+      none: 'Geen betalingen of actief abonnement'
+      ptv: 'Betaald om te kijken'
     tag:
       require-payment-label: 'Betaling Vereist'
+core:
+  forum:
+    index_sort:
+      mostBacked_button: 'Meest gesteund'
