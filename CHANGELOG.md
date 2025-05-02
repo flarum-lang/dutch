@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.3.1 (2025-05-02)
+------------------
+
+**Updated translations for extensions**:
+
+* [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+
+
+All changes: [v1.3.0...v1.3.1](https://github.com/flarum-lang/dutch/compare/v1.3.0...v1.3.1).
+
+
 1.3.0 (2024-11-07)
 ------------------
 
