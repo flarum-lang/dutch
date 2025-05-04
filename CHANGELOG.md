@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
+
+All changes: [v1.3.1...v1.4.0](https://github.com/flarum-lang/dutch/compare/v1.3.1...v1.4.0).
+
+
 1.3.1 (2025-05-02)
 ------------------
 
