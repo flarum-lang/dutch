@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 
 
