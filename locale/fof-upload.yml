@@ -25,7 +25,9 @@ fof-upload:
       s3_instance_profile: "Laat de sleutel en geheime sleutel leeg om de profiel instantiegegevens te gebruiken.\n"
       watermark: "Kies of afbeeldingen een watermerk moeten krijgen tijdens het uploaden. Watermerken worden, behalve bij GIFs, toegevoegd op basis van je voorkeur hieronder.\n"
     inspect-mime:
+      description: "FoF Upload gebruikt de <a>PHP Mime Detector</a> extensie voor veelgebruikte MIME types en PHP Fileinfo extensie als terugval optie.\nDe MIME waarde die wordt opgehaald door Fileinfo kan anders zijn dan die van server tot server.\n"
       not-available: 'Geen resultaat'
+      title: 'Inspecteer MIME'
     labels:
       aws-s3:
         acl: 'Access Control List (ACL)'
@@ -98,9 +100,18 @@ fof-upload:
     templates:
       file: 'Standaard bestand downloadtemplate'
       just-url: 'Enkel URL'
+      text-preview: 'Tekst voorbeeld'
+      text-preview_description: "Voegt een voorbeeld (de eerste 5 regels) van het tekstbestand in, met de optie om uit te klappen om de volledige inhoud van het bestand weer te geven.\n"
+    upload_methods:
+      aws-s3: 'S3 of compatibel'
+      awss3: 'AWS S3'
+      imgur: Imgur
+      local: Lokaal
+      qiniu: QiNiu
   api:
     upload_errors:
       cannot_write_to_disk: 'Kan niet naar opslagruimte schrijven.'
+      forbidden_type: 'Het uploaden van bestanden van dit type is niet toegestaan.'
       no_file_uploaded: 'Geen bestand geüpload.'
       no_files_made_it_to_upload: 'Upload alsjeblieft geen bestanden groter dan {max} kb.'
       no_upload_tmp_folder: 'Geen tmp-map om bestanden naartoe te uploaden.'
@@ -128,13 +139,30 @@ fof-upload:
       max_size: 'Uploads boven de {max} kb zijn niet geaccepteerd.'
   lib:
     file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Niets geselecteerd} one {Selecteer bestand} other {Selecteer bestanden}}'
+      delete_confirmation: 'Weet je zeker dat je "{fileName}" wilt verwijderen?'
+      delete_file_a11y_label: 'Verwijder bestand "{fileName}"'
       empty: 'Er zijn geen afbeeldingen om weer te geven.'
+      hide_file:
+        btn_a11y_label_hide: 'Verberg "{fileName}" van de mediabeheerder'
+        btn_a11y_label_show: 'Geef "{fileName}" weer in de mediabeheerder'
+        hide_confirmation: 'Weet je zeker dat je "{fileName}" wilt verbergen? Een bestand verbergen verwijdert het enkel uit je mediabeheer en blijft beschikbaar in bestaande berichten.'
+        hide_fail: 'Kon bestand "{fileName}" niet verbergen'
+        hide_success: 'Bestand verborgen'
+        loading: 'Bestand verbergen...'
+        show_confirmation: 'Weet je zeker dat je "{fileName}" wilt weergeven? Een bestand weergeven maakt het zichtbaar in je mediabeheerder.'
+        show_fail: 'Kon bestand "{fileName}" niet weergeven'
+        show_success: 'File zichtbaar'
       hide_shared_file:
+        btn_a11y_label_hide: 'Maak "{fileName}" privé (zonder publieke URL)'
+        btn_a11y_label_show: 'Maak "{fileName}" openbaar (met publieke URL)'
+        hide_confirmation: 'Weet je zeker dat je "{fileName}" privé wilt maken? Als je een bestand privé maakt, wordt de openbare URL verwijderd, maar dit heeft geen invloed op bestaande berichten. Het zal ook niet langer zichtbaar zijn in de mediabeheerder voor onbevoegde gebruikers.'
         hide_fail: 'Kon het bestand "{fileName}" niet privé maken'
         hide_success: 'Bestand privé gemaakt'
         loading: 'Bestand privé maken...'
-        show_fail: 'Kon het bestand "{fileName}" niet publiek maken'
-        show_success: 'Bestand publiekelijk beschikbaar gemaakt'
+        show_confirmation: 'Weet je zeker dat je "{fileName}" openbaar wilt maken? Door een bestand openbaar te maken wordt het toegankelijk voor iedereen met een publieke URL en kan iedereen het delen met behulp van de mediabeheerder.'
+        show_fail: 'Kon het bestand "{fileName}" niet openbaar maken'
+        show_success: 'Bestand openbaar beschikbaar gemaakt'
       load_more_files_btn: 'Meer bestanden laden'
       loading: 'Bestanden laden...'
       modal_empty_desktop: 'Je bestandenlijst is leeg. Klik de knop hierboven of sleep een bestand hier om een bestand te uploaden.'
