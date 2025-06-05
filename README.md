@@ -80,6 +80,8 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 | [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/nl/) |
 | [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/fof-masquerade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-masquerade/nl/) |
 | [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/fof-nightmode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-nightmode/nl/) |
+| [`fof/polls`](https://github.com/FriendsOfFlarum/polls) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/fof-polls/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-polls/nl/) |
+| [`fof/upload`](https://github.com/FriendsOfFlarum/upload) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/fof-upload/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-upload/nl/) |
 | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/nl/) |
 | [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/fof-username-request/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-username-request/nl/) |
 
