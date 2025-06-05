@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.5.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+All changes: [v1.4.0...v1.5.0](https://github.com/flarum-lang/dutch/compare/v1.4.0...v1.5.0).
+
+
 1.4.0 (2025-06-05)
 ------------------
 
