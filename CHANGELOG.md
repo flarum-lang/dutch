@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.4.0 (XXXX-XX-XX)
+1.4.0 (2025-06-05)
 ------------------
 
 **Added support for new extensions**:
