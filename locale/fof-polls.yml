@@ -7,23 +7,23 @@ fof-polls:
     permissions:
       change_vote: 'Stem wijzigen'
       moderate: 'Bewerk & verwijder peilingen'
-      moderate_group: 'Beheer groep'
+      moderate_group: 'Bewerk & verwijder peiling-groepen'
       self_edit: 'Bewerk gemaakte peilingen (vereist bericht bewerkrechten)'
       self_post_edit: 'Bewerk *alle* peilingen van eigen berichten (vereist bericht bewerkrechten)'
       start: 'Start een peiling'
       start_global: 'Globale peiling starten'
-      start_group: 'Start groep'
+      start_group: 'Maak peiling-groepen'
       upload_images: 'Gebruikers mogen afbeeldingen uploaden voor peilingen'
-      view_group: 'Bekijk groep'
+      view_group: 'Bekijk peiling-groepen'
       view_results_without_voting: 'Bekijk resultaten zonder te stemmen'
       vote: 'Stemmen op peilingen'
     settings:
-      allow_image_uploads: 'Sta toe om afbeeldingen te uploaden voor peilingopties'
+      allow_image_uploads: 'Sta toe om afbeeldingen te uploaden voor peiling-opties'
       allow_image_uploads_help: 'Als dit is ingeschakeld, kunnen gebruikers afbeeldingen uploaden en een URL voor de afbeelding opgeven (als dit is ingeschakeld voor de opties, is dit altijd ingeschakeld voor de peiling zelf).'
-      allow_option_image: 'Sta een afbeelding-URL toe voor elke peiling optie'
+      allow_option_image: 'Sta een afbeelding-URL toe voor elke peiling-optie'
       enable_global_polls: 'Globale peilingen inschakelen'
       enable_global_polls_help: 'Globale peilingen zijn niet gebonden aan een specifieke post en kan worden bezocht op een specifieke peilingspagina.'
-      enabled_poll_groups: 'Ingeschakelde peiling groepen'
+      enabled_poll_groups: 'Ingeschakelde peiling-groepen'
       enabled_poll_groups_help: 'Selecteer welke groepen peilingen kunnen maken'
       general:
         heading: 'Algemene instellingen'
@@ -37,8 +37,8 @@ fof-polls:
       image_height: 'Afbeeldingshoogte aanpassen'
       image_width: 'Afbeeldingsbreedte aanpassen'
       max_options: 'Maximale hoeveelheid opties per peiling'
-      options_color_blend: 'Tekst kleur mengen in peilingopties'
-      options_color_blend_help: 'Gebruik deze functie om kleurmenging te gebruiken om de pollopties leesbaarder te maken. Schakel deze functie uit als deze problemen veroorzaakt met de weergave van je forum, waardoor de leesbaarheid afneemt.'
+      options_color_blend: 'Tekst kleur mengen in peiling-opties'
+      options_color_blend_help: 'Gebruik deze functie om kleurmenging te gebruiken om de peiling-opties leesbaarder te maken. Schakel deze functie uit als deze problemen veroorzaakt met de weergave van je forum, waardoor de leesbaarheid afneemt.'
   forum:
     answers: Antwoorden
     compose:
@@ -108,40 +108,40 @@ fof-polls:
       total_votes: '{count, plural, one {# stem gegeven} other {# stemmen gegeven stemmen}}'
     poll_controls:
       delete_confirmation: 'Weet je zeker dat je deze peiling wilt verwijderen?'
-      delete_error_message: 'Er ging iets mis tijdens het verwijderen van de peiling.'
+      delete_error_message: 'Er ging iets mis tijdens het verwijderen van de peiling'
       delete_label: '=> core.ref.delete'
-      delete_success_message: 'Peiling succesvol verwijdert.'
+      delete_success_message: 'Peiling succesvol verwijderd'
       edit_label: '=> core.ref.edit'
       view_label: '=> core.ref.view'
     poll_ended: 'Deze peiling is beëindigd.'
     poll_form:
       delete: 'Peiling verwijderen'
-      error: 'Er was een foutmelding tijdens het opslaan van de peiling, contacteer een beheerder.'
+      error: 'Er was een foutmelding tijdens het opslaan van de peiling, contacteer een beheerder'
     poll_groups:
       composer:
         add_title: 'Voeg een Peiling Toe'
         delete: Verwijderen
         edit_title: 'Peiling Bewerken'
-        groups_manager: 'Groepen Beheerder'
+        groups_manager: 'Peiling-groepen Beheerder'
         save_changes: 'Wijzigingen Opslaan'
         success: 'Succesvol opgeslagen'
-        view_group: 'Bekijk Groep'
+        view_group: 'Bekijk Peiling-groep'
       controls:
         add_poll_label: 'Peiling Toevoegen'
-        delete_confirmation: 'Weet je zeker dat je deze peiling groep wilt verwijderen?'
-        delete_error_message: 'Er ging iets mis bij het verwijderen van de peiling groep.'
+        delete_confirmation: 'Weet je zeker dat je deze peiling-groep wilt verwijderen?'
+        delete_error_message: 'Er ging iets mis bij het verwijderen van de peiling-groep.'
         delete_label: Verwijderen
-        delete_success_message: 'Peiling groep succesvol verwijderd.'
+        delete_success_message: 'Peiling-groep succesvol verwijderd.'
         edit_label: Bewerken
         view_label: Bekijken
       list_page:
         add_poll_button: 'Peiling Toevoegen'
-        cannot_start_poll_group_button: 'Kan Geen Peiling Groep Starten'
-        empty_text: 'Er zijn nog geen peiling groepen.'
+        cannot_start_poll_group_button: 'Kan Geen Peiling-groep Starten'
+        empty_text: 'Er zijn nog geen peiling-groepen.'
         load_more_button: 'Meer Laden'
         no_polls: 'Geen peilingen in deze groep'
-        start_poll_group_button: 'Start Peiling Groep'
-        title: 'Peiling Groepen'
+        start_poll_group_button: 'Start een Peiling-groep'
+        title: Peiling-groepen
     poll_never_ends: 'Peiling eindigt nooit'
     polls_count: '{count, plural, one { {count} stem} other {{count} stemmen}}'
     polls_list:
