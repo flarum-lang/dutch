@@ -7,11 +7,14 @@ fof-polls:
     permissions:
       change_vote: 'Stem wijzigen'
       moderate: 'Bewerk & verwijder peilingen'
+      moderate_group: 'Beheer groep'
       self_edit: 'Bewerk gemaakte peilingen (vereist bericht bewerkrechten)'
       self_post_edit: 'Bewerk *alle* peilingen van eigen berichten (vereist bericht bewerkrechten)'
       start: 'Start een peiling'
       start_global: 'Globale peiling starten'
+      start_group: 'Start groep'
       upload_images: 'Gebruikers mogen afbeeldingen uploaden voor peilingen'
+      view_group: 'Bekijk groep'
       view_results_without_voting: 'Bekijk resultaten zonder te stemmen'
       vote: 'Stemmen op peilingen'
     settings:
@@ -20,6 +23,8 @@ fof-polls:
       allow_option_image: 'Sta een afbeelding-URL toe voor elke peiling optie'
       enable_global_polls: 'Globale peilingen inschakelen'
       enable_global_polls_help: 'Globale peilingen zijn niet gebonden aan een specifieke post en kan worden bezocht op een specifieke peilingspagina.'
+      enabled_poll_groups: 'Ingeschakelde peiling groepen'
+      enabled_poll_groups_help: 'Selecteer welke groepen peilingen kunnen maken'
       general:
         heading: 'Algemene instellingen'
         help: 'Deze instellingen bepalen de basisfunctionaliteit van de Peilingen extensie.'
@@ -94,6 +99,7 @@ fof-polls:
     page:
       nav: Peilingen
       nav-all: 'Alle globale peilingen'
+      nav-groups: Groepen
     poll:
       cannot_change_vote: 'Je kunt je stem niet wijzigen nadat je hebt gestemd.'
       cannot_start_poll_button: 'Kan geen peiling starten'
@@ -111,6 +117,31 @@ fof-polls:
     poll_form:
       delete: 'Peiling verwijderen'
       error: 'Er was een foutmelding tijdens het opslaan van de peiling, contacteer een beheerder.'
+    poll_groups:
+      composer:
+        add_title: 'Voeg een Peiling Toe'
+        delete: Verwijderen
+        edit_title: 'Peiling Bewerken'
+        groups_manager: 'Groepen Beheerder'
+        save_changes: 'Wijzigingen Opslaan'
+        success: 'Succesvol opgeslagen'
+        view_group: 'Bekijk Groep'
+      controls:
+        add_poll_label: 'Peiling Toevoegen'
+        delete_confirmation: 'Weet je zeker dat je deze peiling groep wilt verwijderen?'
+        delete_error_message: 'Er ging iets mis bij het verwijderen van de peiling groep.'
+        delete_label: Verwijderen
+        delete_success_message: 'Peiling groep succesvol verwijderd.'
+        edit_label: Bewerken
+        view_label: Bekijken
+      list_page:
+        add_poll_button: 'Peiling Toevoegen'
+        cannot_start_poll_group_button: 'Kan Geen Peiling Groep Starten'
+        empty_text: 'Er zijn nog geen peiling groepen.'
+        load_more_button: 'Meer Laden'
+        no_polls: 'Geen peilingen in deze groep'
+        start_poll_group_button: 'Start Peiling Groep'
+        title: 'Peiling Groepen'
     poll_never_ends: 'Peiling eindigt nooit'
     polls_count: '{count, plural, one { {count} stem} other {{count} stemmen}}'
     polls_list:
