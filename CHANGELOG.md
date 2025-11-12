@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
