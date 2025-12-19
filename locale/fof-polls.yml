@@ -24,7 +24,7 @@ fof-polls:
       enable_global_polls: 'Globale peilingen inschakelen'
       enable_global_polls_help: 'Globale peilingen zijn niet gebonden aan een specifieke post en kan worden bezocht op een specifieke peilingspagina.'
       enabled_poll_groups: 'Ingeschakelde peiling-groepen'
-      enabled_poll_groups_help: 'Selecteer welke groepen peilingen kunnen maken'
+      enabled_poll_groups_help: 'Met pollgroepen kunt u globale polls groeperen en op een aparte pagina weergeven.'
       general:
         heading: 'Algemene instellingen'
         help: 'Deze instellingen bepalen de basisfunctionaliteit van de Peilingen extensie.'
@@ -108,15 +108,15 @@ fof-polls:
       total_votes: '{count, plural, one {# stem gegeven} other {# stemmen gegeven stemmen}}'
     poll_controls:
       delete_confirmation: 'Weet je zeker dat je deze peiling wilt verwijderen?'
-      delete_error_message: 'Er ging iets mis tijdens het verwijderen van de peiling'
+      delete_error_message: 'Er ging iets mis tijdens het verwijderen van de peiling.'
       delete_label: '=> core.ref.delete'
-      delete_success_message: 'Peiling succesvol verwijderd'
+      delete_success_message: 'Peiling succesvol verwijderd.'
       edit_label: '=> core.ref.edit'
       view_label: '=> core.ref.view'
     poll_ended: 'Deze peiling is beëindigd.'
     poll_form:
       delete: 'Peiling verwijderen'
-      error: 'Er was een foutmelding tijdens het opslaan van de peiling, contacteer een beheerder'
+      error: 'Er was een foutmelding tijdens het opslaan van de peiling, contacteer een beheerder.'
     poll_groups:
       composer:
         add_title: 'Voeg een Peiling Toe'
@@ -124,7 +124,7 @@ fof-polls:
         edit_title: 'Peiling Bewerken'
         groups_manager: 'Peiling-groepen Beheerder'
         save_changes: 'Wijzigingen Opslaan'
-        success: 'Succesvol opgeslagen'
+        success: 'Peiling-groep succesvol opgeslagen.'
         view_group: 'Bekijk Peiling-groep'
       controls:
         add_poll_label: 'Peiling Toevoegen'
@@ -139,7 +139,7 @@ fof-polls:
         cannot_start_poll_group_button: 'Kan Geen Peiling-groep Starten'
         empty_text: 'Er zijn nog geen peiling-groepen.'
         load_more_button: 'Meer Laden'
-        no_polls: 'Geen peilingen in deze groep'
+        no_polls: 'Geen peilingen in deze groep.'
         start_poll_group_button: 'Start een Peiling-groep'
         title: Peiling-groepen
     poll_never_ends: 'Peiling eindigt nooit'
@@ -147,6 +147,13 @@ fof-polls:
     polls_list:
       empty_text: 'Het lijkt erop dat er nog geen community-brede peilingen zijn.'
       load_more_button: '=> core.ref.load_more'
+      sort_dropdown:
+        least_voted: 'Minst gestemd'
+        most_voted: 'Meest gestemd'
+        newest: Nieuwste
+        oldest: Oudste
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
     polls_page:
       title: Peilingen
     public_poll: 'Stemmers bekijken'
