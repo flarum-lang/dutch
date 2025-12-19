@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.4.1 (2025-12-19)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+* Updated validation translations.
+
+
+**Added support for new extensions**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+
+
+All changes: [v1.4.0...v1.4.1](https://github.com/flarum-lang/dutch/compare/v1.4.0...v1.4.1).
+
+
 1.4.0 (2025-06-05)
 ------------------
 
