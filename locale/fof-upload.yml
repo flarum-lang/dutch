@@ -47,6 +47,7 @@ fof-upload:
           both: Beiden
           media-btn: 'Enkel mediabeheerknop'
           upload-btn: 'Enkel uploadknop'
+      configured_by_environment: 'Uw opslaginstellingen zijn vooraf geconfigureerd via omgevingsvariabelen.'
       disable-download-logging:
         title: 'Schakel downloadlog uit'
         toggle: Uitschakelen
@@ -64,6 +65,7 @@ fof-upload:
       preferences:
         max_file_size: 'Maximale bestandsgrootte (in kilobytes)'
         mime_types: 'Configureer je mime-type, upload adapter mapping'
+        php_ini_values: 'Uw <code>php.ini</code>-waarden zijn <code>post_max_size={post}</code> en <code>upload_max_filesize={upload}</code>. Zorg ervoor dat de hier ingestelde waarde onder deze drempelwaarden ligt, of pas ze dienovereenkomstig aan. Als u <code>Nginx</code> gebruikt, zorg er dan ook voor dat <code>client_max_body_size</code> voldoende groot is voor de door u gekozen maximale limiet.'
         title: 'Generieke voorkeuren'
       qiniu:
         bucket: Bucket
@@ -74,6 +76,11 @@ fof-upload:
         max_width: 'Maximale afbeeldingsbreedte/hoogte'
         title: 'Afbeeldingsformaat wijzigen'
         toggle: 'Wijzig afbeeldingsformaat'
+      svg-sanitizer:
+        allow_animate: 'SVG animaties toestaan'
+        allow_animate_help: 'Het inschakelen van SVG-animaties kan beveiligingsrisico''s met zich meebrengen, aangezien geanimeerde SVG''s kwaadaardige code kunnen bevatten. Schakel deze instelling op eigen risico in en alleen als u uw gebruikers vertrouwt.'
+        help: 'Configureer hoe SVG-bestanden worden verwerkt en gesaneerd bij het uploaden. SVG-bestanden kunnen potentieel schadelijke scripts bevatten en moeten daarom met zorg worden behandeld. Geüploade SVG''s worden bij het uploaden gesaneerd en schadelijke scripts en tags worden verwijderd.'
+        title: 'SVG Sanitizer'
       watermark:
         file: 'Upload je watermerk-afbeelding'
         position: 'Watermerk positie'
