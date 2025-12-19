@@ -5,6 +5,12 @@ CHANGELOG
 1.4.1 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+* Updated validation translations.
+
+
 **Added support for new extensions**:
 
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
