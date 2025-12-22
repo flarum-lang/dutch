@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.2 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+All changes: [v1.4.1...v1.4.2](https://github.com/flarum-lang/dutch/compare/v1.4.1...v1.4.2).
+
+
 1.4.1 (2025-12-19)
 ------------------
 
