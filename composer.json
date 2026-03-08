@@ -44,6 +44,9 @@
         },
         "extiverse": {
             "discuss": "https://discuss.flarum.org/d/18962"
+        },
+        "branch-alias": {
+            "dev-main": "1.x-dev"
         }
     }
 }
