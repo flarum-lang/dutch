@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 
 
 All changes: [v1.4.1...v1.4.2](https://github.com/flarum-lang/dutch/compare/v1.4.1...v1.4.2).
