@@ -4,6 +4,27 @@
 
 core:
   admin:
+    advanced:
+      description: 'Configureer de geavanceerde instellingen voor uw forum.'
+      fontawesome:
+        cdn_url_label: 'CDN URL (link)'
+        source_cdn: CDN
+        source_kit: FontAwesome-kit
+      maintenance:
+        bisect_modal:
+          end_button: 'Sluiten en naar de extensiepagina gaan'
+          issue_question: 'Doet het probleem zich nog steeds voor?'
+          issue_question_help: 'Probeer het probleem op een aparte pagina te reproduceren en geef antwoord op basis van het resultaat.'
+          no_button: Nee
+          steps_left: 'Resterende stappen: {steps}'
+          total_steps: 'Dit zal ongeveer {steps} stappen duren.'
+          yes_button: Ja
+        config_override:
+          label: 'Uw <code>config.php</code> bestand overschrijft deze instellingen.'
+        help: 'Zet je forum in de onderhoudsmodus om te voorkomen dat gebruikers er toegang toe krijgen.'
+        options:
+          high: 'Hoge onderhoudsmodus. Niemand heeft toegang tot het forum (kan alleen worden ingeschakeld via config.php)'
+          none: 'Geen onderhoud.'
     appearance:
       colored_header_label: 'Gekleurde header'
       colors_heading: Kleuren
