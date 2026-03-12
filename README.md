@@ -90,6 +90,7 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 | --- | --- |
 | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/datlechin-signup-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-signup-button/nl/) |
 | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flectar-turnstile/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flectar-turnstile/nl/) |
+| [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/huseyinfiliz-awards/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards/nl/) |
 
 <!-- various-extensions-list-stop -->
 
