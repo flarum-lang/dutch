@@ -47,6 +47,7 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-lock/nl/) |
 | [`flarum/markdown`](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-markdown/nl/) |
 | [`flarum/mentions`](https://github.com/flarum/mentions) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-mentions/nl/) |
+| [`flarum/messages`](https://github.com/flarum/messages) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flarum-messages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-messages/nl/) |
 | [`flarum/nicknames`](https://github.com/flarum/nicknames) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-nicknames/nl/) |
 | [`flarum/pusher`](https://github.com/flarum/pusher) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flarum-pusher/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-pusher/nl/) |
 | [`flarum/statistics`](https://github.com/flarum/statistics) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flarum-statistics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-statistics/nl/) |
@@ -88,6 +89,8 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/nl/) |
+| [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-mobile-tab/nl/) |
 | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/datlechin-signup-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-signup-button/nl/) |
 | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flectar-turnstile/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flectar-turnstile/nl/) |
 | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/huseyinfiliz-awards/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards/nl/) |
