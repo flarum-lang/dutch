@@ -4,6 +4,19 @@
 
 core:
   admin:
+    announcements:
+      about: 'Het laatste nieuws en de aankondigingen zijn afkomstig van de officiële Flarum-community op discuss.flarum.org.'
+      comments_label: '{count, plural, one {# opmerking} other {# opmerkingen}}'
+      description: 'Laatste nieuws en aankondigingen van het Flarum-team.'
+      empty: 'Geen aankondigingen gevonden.'
+      hide: 'Aankondigingen verbergen'
+      load_error: 'Kon de aankondigingen niet laden. Probeer het later opnieuw.'
+      read_more: 'Lees meer'
+      refresh: 'Aankondigingen vernieuwen'
+      retry: 'Probeer het opnieuw'
+      show: 'Toon aankondigingen'
+      title: Aankondigingen
+      view_all: 'Bekijk alles op discuss.flarum.org'
     appearance:
       colored_header_label: 'Gekleurde header'
       colors_heading: Kleuren
@@ -57,6 +70,12 @@ core:
     dashboard:
       clear_cache_button: 'Cache wissen'
       description: 'Uw forum in één oogopslag.'
+      info_button: Systeeminfo
+      info_modal:
+        copy_button: 'Kopiëren naar Klembord'
+        copy_error: 'Kopiëren naar klembord mislukt'
+        copy_success: 'Systeemgegevens naar het klembord gekopieerd'
+        title: Systeeminformatie
       io_error_message: 'Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI.'
       status:
         headers:
@@ -119,9 +138,12 @@ core:
       smtp_heading: 'SMTP instellingen'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'Deze extensie wordt niet langer onderhouden door de auteur en ontvangt mogelijk geen updates meer.'
+      abandoned_with_replacement: 'Deze extensie is vervangen door {replacement}. Overweeg om over te stappen naar het vervangende pakket.'
       configure_scopes: 'Configureer bereiken'
       confirm_purge: 'Bij het opschonen zullen alle database-items en assets gerelateerd aan deze extensie verwijderd worden. Het zal de extensie niet verwijderen, dat moet via Composer. Weet je zeker dat je door wilt gaan?'
       confirm_uninstall: 'Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?'
+      deprecated: Verouderd
       disabled: Uitgeschakeld
       enable_to_see: 'Schakel de extensie in om instellingen te bekijken en te wijzigen.'
       enabled: Ingeschakeld
@@ -141,6 +163,7 @@ core:
         button_label: LEESMIJ
         no_readme: 'Deze extensie lijkt geen README-bestand te hebben'
         title: '{extName} documentatie'
+      replaced: Vervangen
       uninstall_button: Deïnstalleren
     header:
       get_help: 'Krijg hulp'
@@ -644,6 +667,7 @@ core:
       csrf_token_mismatch: 'Je bent te lang inactief geweest.'
       csrf_token_mismatch_return_link: 'Ga terug om het opnieuw te proberen'
       invalid_confirmation_token: 'Deze bevestigingslink is al gebruikt of is ongeldig.'
+      method_not_allowed: 'Deze pagina ondersteunt die aanvraagmethode niet.'
       not_authenticated: 'U hebt geen toestemming om deze pagina te openen. Probeer het opnieuw na het inloggen.'
       not_found: 'De door u opgevraagde pagina kon niet worden gevonden.'
       not_found_return_link: 'Terug naar {forum}'
