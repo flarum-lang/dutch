@@ -20,8 +20,18 @@ flarum-gdpr:
         heading: 'AVG (GDPR) Instellingen'
         help_text: 'Op zoek naar de AVG/GDPR instellingen? Deze kun je vinden op de extensiepagina.'
       user_table_data:
+        column: Kolom
+        extension: Extensie
         help_text: "In de meeste gevallen worden kolommen die zijn toegevoegd aan de <code>user</code> tabel automatisch afgehandeld, zowel voor het exporteren van gegevens als voor het wissen.\nEr zijn echter enkele speciale gevallen, die hieronder worden opgesomd.\n"
+        'no': Nee
+        nullable: Nullable
+        pii: PII
+        pii_tooltip: 'Deze kolom wordt beschouwd als persoonlijk identificeerbare informatie en zal worden geanonimiseerd in geanonimiseerde contexten (bijv. geanonimiseerde gebeurtenisgegevens).'
+        redacted_on_export: 'Afgeschermd bij export'
+        redacted_on_export_tooltip: 'De waarde van deze kolom wordt leeggemaakt (op null gezet) bij het genereren van een gebruikersgegevensexport. De kolom verschijnt echter nog steeds in de export met een null-waarde.'
         title: 'Gebruikerstabel gegevens'
+        type: Type
+        'yes': Ja
     nav:
       gdpr_button: 'GDPR Integraties'
     permissions:
@@ -76,7 +86,10 @@ flarum-gdpr:
       anonymization_button: 'Anonimiseer gebruiker'
       comments_label: 'Commentaar (optioneel)'
       confirm: 'Weet je zeker dat je {name}''s account wilt wissen onder {mode} modus?'
+      confirmed_at: 'Bevestigd: {date}'
       deletion_button: 'Verwijder gebruiker'
+      eligible_at: 'Geschikt voor automatische verwerking: {date}'
+      requested_at: 'Aangevraagd: {date}'
       text: '{name} heeft een account verwijderingsverzoek ingediend.'
       title: 'Verwerk wisverzoek'
     request_erasure:
@@ -102,6 +115,7 @@ flarum-gdpr:
       avatar:
         delete_description: 'Verwijdert de avatar van de gebruiker van het bestandssysteem.'
         export_description: 'Haalt de avatar van de gebruiker op van het bestandssysteem en voegt deze toe aan de export.'
+      default_user_action: 'Geen actie nodig, wordt afgehandeld door de standaard gebruikerstabelgegevensverwerking.'
       discussions:
         export_description: 'Exporteert alle discussies die de gebruiker is gestart. Gegevens zijn beperkt tot de titel en aanmaakdatum.'
       forum:
