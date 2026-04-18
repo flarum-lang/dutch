@@ -20,6 +20,8 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 
