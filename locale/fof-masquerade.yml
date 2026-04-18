@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Wijzigingen opslaan'
     fields:
       add: 'Veld {field} toevoegen'
+      delete-confirmation: 'Weet je zeker dat je het veld {field} wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.'
       description: 'Veld beschrijving'
       description-help: "Een optionele beschrijving waarmee het nut van dit veld wordt uitgelegd.\n"
       edit: 'Veld {field} bewerken'

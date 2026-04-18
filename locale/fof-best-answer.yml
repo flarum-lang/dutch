@@ -8,6 +8,7 @@ fof-best-answer:
       qna_label: 'Sta het toe om een Beste Antwoord te selecteren in deze tag'
       reminders: 'Verstuur herinneringen om een beste antwoord te selecteren voor discussies binnen in tag'
     permissions:
+      allow_select_own_post: 'Kies eigen bericht als beste antwoord'
       best_answer: 'Kies beste antwoord (eigen Discussie)'
       best_answer_not_own_discussion: 'Kies beste antwoord (niet eigen Discussie)'
     settings:
