@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.4.2 (2026-04-18)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+
+
+All changes: [v1.4.1...v1.4.2](https://github.com/flarum-lang/dutch/compare/v1.4.1...v1.4.2).
+
+
 1.4.1 (2025-12-19)
 ------------------
 
