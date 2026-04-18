@@ -42,6 +42,12 @@ core:
       logo_text: 'Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.'
       title: Vormgeving
     basics:
+      abandoned_extensions_heading: 'Opgegeven extensies'
+      abandoned_extensions_notify_admins_label: 'Stuur een e-mail naar de beheerders wanneer tijdens de wekelijkse controle een nieuwe, niet actieve extensie wordt gedetecteerd'
+      abandoned_extensions_sync_button: 'Nu controleren'
+      abandoned_extensions_sync_error: 'Het ophalen van de lijst met niet meer gebruikte extensies is mislukt. Probeer het later opnieuw.'
+      abandoned_extensions_sync_success: 'Lijst met niet actieve extensies bijgewerkt. {count} overeenkomende geïnstalleerde extensie(s) gevonden.'
+      abandoned_extensions_text: 'Flarum houdt een <a>communitylijst bij van extensies die niet meer worden onderhouden</a>. Wanneer een geïnstalleerde extensie op deze lijst verschijnt, wordt deze gemarkeerd in het beheerderspaneel.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Standaard taal'
       description: 'Stel uw forumtitel, taal en andere basisinstellingen in.'
@@ -181,6 +187,7 @@ core:
         discussion: Discussie
         feature: Functies
         formatting: Formattering
+        forum-widget: Forumwidgets
         language: Talen
         moderation: Moderatie
         other: 'Andere Extensies'
@@ -288,6 +295,11 @@ core:
       must_not_be_multidimensional_array_message: 'Filter {filter} mag geen multidimensionale array zijn.'
     invalid_username_message: 'De gebruikersnaam mag alleen letters, cijfers en streepjes (-) bevatten.'
   email:
+    abandoned_extensions:
+      body: "Hallo {username},\n\nDe volgende geïnstalleerde extensie(s) zijn gemarkeerd als niet meer in gebruik:\n\n{extensions}\n\nBekijk deze extensies en overweeg, indien mogelijk, over te stappen op alternatieven.\n"
+      line_no_replacement: '- {package} (geen vervanging beschikbaar)'
+      line_with_replacement: '- {package} (voorgestelde vervanging: {replacement})'
+      subject: 'Vereiste actie: niet actieve extensie(s) gedetecteerd'
     activate_account:
       body: "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zich aangemeld op {forum} met dit e-mailadres.\n\nAls jij dit was, klik dan op deze link om je account te activeren:\n{url}\n\nAls jij je niet hebt aangemeld, kan je deze e-mail negeren.\n"
       subject: 'Activeer je nieuwe account'
