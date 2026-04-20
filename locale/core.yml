@@ -62,6 +62,12 @@ core:
       logo_text: 'Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.'
       title: Vormgeving
     basics:
+      abandoned_extensions_heading: 'Opgegeven extensies'
+      abandoned_extensions_notify_admins_label: 'Stuur een e-mail naar de beheerders wanneer tijdens de wekelijkse controle een nieuwe, niet actieve extensie wordt gedetecteerd'
+      abandoned_extensions_sync_button: 'Nu controleren'
+      abandoned_extensions_sync_error: 'Het ophalen van de lijst met niet meer gebruikte extensies is mislukt. Probeer het later opnieuw.'
+      abandoned_extensions_sync_success: 'Lijst met niet actieve extensies bijgewerkt. {count} overeenkomende geïnstalleerde extensie(s) gevonden.'
+      abandoned_extensions_text: 'Flarum houdt een <a>communitylijst bij van extensies die niet meer worden onderhouden</a>. Wanneer een geïnstalleerde extensie op deze lijst verschijnt, wordt deze gemarkeerd in het beheerderspaneel.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Standaard taal'
       description: 'Stel uw forumtitel, taal en andere basisinstellingen in.'
@@ -199,6 +205,7 @@ core:
         discussion: Discussie
         feature: Functies
         formatting: Formattering
+        forum-widget: Forumwidgets
         language: Talen
         moderation: Moderatie
         other: 'Andere Extensies'
@@ -294,6 +301,8 @@ core:
       must_not_be_array_message: 'Filter {filter} mag geen array zijn.'
       must_not_be_multidimensional_array_message: 'Filter {filter} mag geen multidimensionale array zijn.'
   email:
+    abandoned_extensions:
+      subject: 'Vereiste actie: niet actieve extensie(s) gedetecteerd'
     activate_account:
       subject: 'Activeer je nieuwe account'
     confirm_email:
