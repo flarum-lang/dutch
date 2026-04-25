@@ -134,7 +134,6 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 | [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/nearata-signup-confirm-password/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password/nl/) |
 | [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/serakoi-hideprofile/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/serakoi-hideprofile/nl/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/nl/) |
-| [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/nl/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/nl/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/nl/) |
 
 <!-- various-extensions-list-stop -->
