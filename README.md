@@ -105,6 +105,7 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 | [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/datlechin-tag-passwords/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-tag-passwords/nl/) |
 | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/flectar-turnstile/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flectar-turnstile/nl/) |
 | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/huseyinfiliz-awards/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards/nl/) |
+| [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/michaelbelgium-profile-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-profile-views/nl/) |
 | [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/nl/michaelbelgium-mybb-to-flarum/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-mybb-to-flarum/nl/) |
 
 <!-- various-extensions-list-stop -->
