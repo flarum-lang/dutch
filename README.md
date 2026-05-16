@@ -121,7 +121,7 @@ You can also manually ADD the Dutch language pack as Flarum's dependency. Open t
 
 <!-- premium-extensions-list-stop -->
 
-If the extension you need is not translated yet, [learn more](https://weblate.rob006.net/engage/flarum/nl/?utm_source=widget) how to translate via our [Weblate instance](https://weblate.rob006.net/languages/nl/flarum/).
+If the extension you need is not translated yet, [learn more](https://weblate.rob006.net/engage/flarum2/nl/?utm_source=widget) how to translate via our [Weblate instance](https://weblate.rob006.net/languages/nl/flarum2/).
 
 
 
@@ -134,4 +134,4 @@ Released under the MIT License. Please see the LICENSE file.
 Thank you a lot to wish to contribute. It means a lot. Using and enjoying the localization is already a huge support. Best other ways to contribute are, among other things:
 
 - Open [issues](https://github.com/flarum-lang/dutch/issues) on GitHub. Because the localization will be better with your feedbacks.
-- Use [Weblate](https://weblate.rob006.net/languages/nl/flarum/) to translate extensions to Dutch
+- Use [Weblate](https://weblate.rob006.net/languages/nl/flarum2/) to translate extensions to Dutch
