@@ -7,24 +7,82 @@ core:
     advanced:
       description: 'Configureer de geavanceerde instellingen voor uw forum.'
       fontawesome:
+        cdn_url_help: 'Volledige URL naar het FontAwesome CSS-bestand op een CDN'
         cdn_url_label: 'CDN URL (link)'
+        config_override:
+          help: 'FontAwesome-instellingen zijn momenteel ingesteld in uw config.php-bestand en kunnen hier niet worden gewijzigd.'
+          label: Configuratie-override
+        kit_url_help: 'De script-URL van uw FontAwesome Kit (van kit.fontawesome.com)'
+        kit_url_label: Kit-URL
+        preview:
+          button: 'Pictogrammen bekijken'
+          fa5_fa6_label: FA5/FA6-aliassen
+          fa7_label: FA7-klassen
+          help: 'Controleer uw FontAwesome-configuratie. Een weergegeven pictogram betekent dat de laag beschikbaar is; een gebroken vak betekent dat het niet is geladen.'
+          label: Pictogramvoorbeeld
+          pro_label: 'Alleen Pro'
+        section_label: FontAwesome-pictogrammen
         source_cdn: CDN
+        source_help: 'Kies hoe FontAwesome-pictogrammen worden geladen. Lokaal gebruikt meegeleverde lettertypen, CDN laadt vanaf een CDN en Kit gebruikt FontAwesome Kits met aangepaste pictogrammen.'
         source_kit: FontAwesome-kit
+        source_label: Pictogrambron
+        source_local: 'Lokaal (meegeleverd)'
       maintenance:
+        bisect:
+          begin_button_text: 'Beginnen met bisect'
+          continue_button_text: 'Doorgaan met bisect'
+          help: 'Helpt bij het identificeren van de extensie die een probleem veroorzaakt. Dit zet het forum automatisch in onderhoudsmodus (laag) totdat het proces is afgerond.'
+          label: 'Extensie bisect'
         bisect_modal:
+          description: "Dit zet het forum in onderhoudsmodus (laag) totdat het proces is afgerond. In elke stap worden sommige extensies uitgeschakeld totdat we de veroorzaker van het probleem vinden. Wees dus niet verbaasd als functies ontbreken of het thema er anders uitziet. Houd deze pagina open en probeer het probleem na elke stap op een aparte pagina te reproduceren. U kunt altijd terugkeren naar deze pagina als u hem per ongeluk sluit.\n"
           end_button: 'Sluiten en naar de extensiepagina gaan'
           issue_question: 'Doet het probleem zich nog steeds voor?'
           issue_question_help: 'Probeer het probleem op een aparte pagina te reproduceren en geef antwoord op basis van het resultaat.'
           no_button: Nee
+          result_description: "Het forum is niet langer in onderhoudsmodus. De extensie bisect is voltooid. Op basis van uw antwoorden op elke stap is de volgende extensie de oorzaak van het probleem:\n"
+          start_button: 'Bisect starten'
           steps_left: 'Resterende stappen: {steps}'
+          stop_button: 'Bisect stoppen'
+          title: 'Extensie bisect'
           total_steps: 'Dit zal ongeveer {steps} stappen duren.'
           yes_button: Ja
         config_override:
+          help: 'U kunt deze instellingen hier nog steeds wijzigen, maar ze hebben pas effect als u <code>offline</code> instelt op <code>0</code> in uw <code>config.php</code>-bestand.'
           label: 'Uw <code>config.php</code> bestand overschrijft deze instellingen.'
         help: 'Zet je forum in de onderhoudsmodus om te voorkomen dat gebruikers er toegang toe krijgen.'
         options:
           high: 'Hoge onderhoudsmodus. Niemand heeft toegang tot het forum (kan alleen worden ingeschakeld via config.php)'
+          low: 'Lage onderhoudsmodus. Beheerders hebben toegang tot het forum.'
           none: 'Geen onderhoud.'
+          safe: 'Veilige modus. Geen extensies worden geladen en alleen beheerders hebben toegang tot het forum.'
+        safe_mode_extensions: 'Extensies die mogen laden tijdens veilige modus'
+        safe_mode_extensions_override_help: 'Deze instelling wordt overschreven door de sleutel <code>safe_mode_extensions</code> in uw <code>config.php</code>-bestand. (<b>{extensions}</b>)'
+        section_label: Onderhoud
+      pgsql:
+        search_configuration: 'Zoekconfiguatie om te gebruiken'
+      queue:
+        backoff_help: 'Wachttijd voor het opnieuw proberen van een mislukte taak. Standaard is 0 seconden.'
+        backoff_label: 'Herprobeertijd (seconden)'
+        custom_driver: 'Uw forum gebruikt de {driver}-wachtrij-driver, geleverd door een extensie.'
+        memory_help: 'Maximum geheugen dat de wachtrij-worker mag gebruiken voor opnieuw starten. Standaard is 128 MB.'
+        memory_label: 'Geheugenlimiet (MB)'
+        rest_help: 'Wachttijd tussen het verwerken van taken. Standaard is 0 seconden.'
+        rest_label: 'Rusttijd (seconden)'
+        retries_help: 'Maximum aantal pogingen voor een taak voordat deze als mislukt wordt gemarkeerd. Standaard is 1.'
+        retries_label: Taakpogingen
+        section_label: Wachtrij
+        sync_help: 'Overweeg voor betere prestaties de database-wachtrij-driver te gebruiken. Lees meer in de documentatie.'
+        sync_info: 'Uw forum gebruikt de synchrone wachtrij-driver. Taken worden onmiddellijk verwerkt in de hoofdproces-thread.'
+        timeout_help: 'Maximum tijd dat een enkele taak mag draaien voor time-out. Standaard is 60 seconden.'
+        timeout_label: 'Taaktime-out (seconden)'
+      search:
+        driver_heading: 'Zoekdriver: {model}'
+        driver_options:
+          default: 'Standaard databasezoekopdracht'
+        driver_text: 'Selecteer een driver voor het doorzoeken van dit model.'
+        no_other_drivers: 'Er zijn nog geen zoekdrivers beschikbaar. Installeer een zoekdriver-extensie om deze te kunnen configureren.'
+        section_label: Zoekdrivers
+      title: Geavanceerd
     announcements:
       about: 'Het laatste nieuws en de aankondigingen zijn afkomstig van de officiële Flarum-community op discuss.flarum.org.'
       comments_label: '{count, plural, one {# opmerking} other {# opmerkingen}}'
@@ -39,6 +97,14 @@ core:
       title: Aankondigingen
       view_all: 'Bekijk alles op discuss.flarum.org'
     appearance:
+      allow_user_color_scheme_label: 'Gebruikers toestaan hun eigen kleurenschema te kiezen'
+      color_scheme_label: 'Kleurenschema (standaard)'
+      color_schemes:
+        auto_mode_label: 'Systeemvoorkeur of geconfigureerde voorkeur van gebruiker'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
       colored_header_label: 'Gekleurde header'
       colors_heading: Kleuren
       colors_primary_label: 'Primaire kleur'
@@ -58,6 +124,8 @@ core:
       enter_hex_message: 'Kies a.u.b. een hexadecimale kleurcode.'
       favicon_heading: Favicon
       favicon_text: 'Upload een afbeelding om weergegeven te worden als snelkoppeling.'
+      logo_dark_mode_heading: 'Logo donkere modus'
+      logo_dark_mode_text: 'Upload een alternatief logo om te tonen wanneer de donkere modus is ingeschakeld.'
       logo_heading: Logo
       logo_text: 'Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.'
       title: Vormgeving
@@ -69,17 +137,31 @@ core:
       abandoned_extensions_sync_success: 'Lijst met niet actieve extensies bijgewerkt. {count} overeenkomende geïnstalleerde extensie(s) gevonden.'
       abandoned_extensions_text: 'Flarum houdt een <a>communitylijst bij van extensies die niet meer worden onderhouden</a>. Wanneer een geïnstalleerde extensie op deze lijst verschijnt, wordt deze gemarkeerd in het beheerderspaneel.'
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: Gebruikersavatar
+      avatar_driver_options:
+        default: Standaard
+      avatar_driver_text: 'Selecteer een driver voor gebruikersavatars wanneer er geen door de gebruiker geüploade avatar beschikbaar is. Standaard wordt er geen avatar weergegeven.'
       default_language_heading: 'Standaard taal'
       description: 'Stel uw forumtitel, taal en andere basisinstellingen in.'
+      display_name_driver_options:
+        username: Gebruikersnaam
       display_name_heading: Gebruikersnaam
       display_name_text: 'Selecteer de driver dat moet worden gebruikt voor de weergavenamen van gebruikers. Standaard wordt de gebruikersnaam weergegeven.'
       forum_description_heading: 'Forum beschrijving'
-      forum_description_text: 'Schrijf een zin of twee die je community omschrijft. Deze zal staan in de meta tag en verschijnen in zoekmachines.'
+      forum_description_text: 'Schrijf een zin of twee die je forum omschrijft. Deze zal staan in de meta tag en verschijnen in zoekmachines.'
       forum_title_heading: 'Forum titel'
       home_page_heading: Homepage
       home_page_text: 'Kies de pagina die gebruikers voor het eerst te zien krijgen wanneer ze je forum bezoeken. Als je zelf een waarde typt, gebruik dan het path relatief aan de forum root.'
       show_language_selector_label: 'Toon taalkiezer'
       slug_driver_heading: 'Slug Driver: {model}'
+      slug_driver_options:
+        discussions:
+          default: 'ID met slug'
+          utf8: 'ID met UTF-8-slug'
+        users:
+          default: Gebruikersnaam
+          id: ID
+          id_with_display_name: 'ID met weergavenaam'
       slug_driver_text: 'Selecteer een driver dat moet worden gebruikt om dit model te sluggen.'
       title: Basis
       welcome_banner_heading: 'Welkom banner'
@@ -113,6 +195,7 @@ core:
           inactive: Inactief
           never-run: 'Nooit uitvoeren'
       title: Dashboard
+      toggle_advanced_page_button: 'Geavanceerde pagina in-/uitschakelen'
       tools_button: Hulpmiddelen
     debug-warning:
       detail: "Wanneer de <code>debug</code>-modus actief is, zal Flarum zijn <code>JavaScript</code>- en <code>CSS</code>-assets bij elk verzoek opnieuw opbouwen en kan mogelijk ook andere informatie lekken, zoals database geheimen, omgevingsvariabelen, enz.\n\nHet wordt ten sterkste aanbevolen om <code>debug</code> uit te schakelen in uw <code>config.php</code>-bestand in productie. Zie <link>Flarum-documenten</link> voor meer informatie.\n"
@@ -146,21 +229,37 @@ core:
       description: 'Configureer de driver, instellingen en adressen die uw forum zal gebruiken om e-mail te verzenden.'
       driver_heading: 'Kies een driver'
       driver_label: Driver
+      format:
+        html_option: HTML
+        multipart_option: 'Multipart (aanbevolen)'
+        plain_option: 'Platte tekst'
+      format_heading: 'Indeling voor uitgaande e-mail'
+      format_help: 'Kies de indeling voor het verzenden van uitgaande e-mails. De aanbevolen optie is <code>multipart</code>, waarmee de e-mailclient van uw gebruiker de meest geschikte indeling kan weergeven.'
       from_label: Afzender
       mail_encryption_label: Encryptie
+      mail_encryption_none_help: 'Geen versleuteling. Niet aanbevolen voor productiegebruik.'
+      mail_encryption_ssl_help: 'Verbinding is versleuteld vanaf het begin (impliciete TLS). Doorgaans gebruikt met poort 465.'
+      mail_encryption_tls_help: 'Verbinding begint onversleuteld en wordt bijgewerkt naar TLS (STARTTLS). Doorgaans gebruikt met poort 587 of 25.'
       mail_host_label: Host
       mail_mailgun_domain_label: Domein
       mail_mailgun_region_label: Regio
       mail_mailgun_secret_label: Privésleutel
       mail_password_label: '=> core.ref.password'
       mail_port_label: Poort
+      mail_postmark_message_stream_label: Berichtstroom
+      mail_postmark_token_label: Servertoken
+      mail_smtp_verify_peer_help: 'Verifieer het SSL-certificaat van de server bij gebruik van TLS- of SSL-encryptie. Schakel alleen uit als uw mailserver een zelfondertekend certificaat gebruikt.'
+      mail_smtp_verify_peer_label: 'SSL-certificaat verifiëren'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgun instellingen'
       not_sending_message: 'Flarum verzendt momenteel geen e-mails. Dit kan komen door de geselecteerde driver of door fouten in de configuratie.'
+      postmark_description: 'Verzend e-mail via de HTTP-API van Postmark. Geef optioneel een berichtstroom op voor een niet-standaard stroom.'
+      postmark_heading: Postmark-instellingen
       send_test_mail_button: Verstuur
       send_test_mail_heading: 'Verstuur testmail'
       send_test_mail_success: 'Testmail succesvol verzonden!'
       send_test_mail_text: 'Hiermee wordt een e-mail met de bovenstaande configuratie naar uw e-mailadres gestuurd, {email}.'
+      smtp_description: 'Configureer SMTP-verbindingsinstellingen. Veelgebruikte configuraties: poort 587 met TLS of poort 465 met SSL.'
       smtp_heading: 'SMTP instellingen'
       title: '=> core.ref.email'
     extension:
@@ -168,6 +267,7 @@ core:
       abandoned_with_replacement: 'Deze extensie is vervangen door {replacement}. Overweeg om over te stappen naar het vervangende pakket.'
       configure_scopes: 'Configureer bereiken'
       confirm_purge: 'Bij het opschonen zullen alle database-items en assets gerelateerd aan deze extensie verwijderd worden. Het zal de extensie niet verwijderen, dat moet via Composer. Weet je zeker dat je door wilt gaan?'
+      database_driver_mismatch: 'Deze extensie ondersteunt uw geconfigureerde databasedriver niet.'
       deprecated: Verouderd
       disabled: Uitgeschakeld
       enable_to_see: 'Schakel de extensie in om instellingen te bekijken en te wijzigen.'
@@ -189,23 +289,56 @@ core:
         no_readme: 'Deze extensie lijkt geen README-bestand te hebben'
         title: '{extName} documentatie'
       replaced: Vervangen
+      reset_settings:
+        button: 'Instellingen resetten'
+        cancel_button: Annuleren
+        confirm_button: Resetten
+        title: 'Instellingen resetten'
+        title_extension: '{extensionTitle}-instellingen resetten'
+        warning: 'Deze actie is onomkeerbaar. De onderstaande instellingen worden permanent verwijderd uit de database en teruggebracht naar hun standaardwaarden. De gegevens van deze extensie worden niet beïnvloed.'
+      safe_mode_warning: 'Veilige modus is momenteel ingeschakeld. Extensies worden niet geladen en hun instellingen zijn daarom niet toegankelijk.'
+    extensions-health-widget:
+      abandoned_no_replacement: 'Geen vervanger beschikbaar'
+      abandoned_with_replacement: 'Vervangen door {replacement}'
+      all_healthy: 'Alle extensies zijn gezond.'
+      section_abandoned_empty: 'Geen problemen gevonden.'
+      section_abandoned_heading: 'Aandacht vereist'
+      section_abandoned_help: 'Deze extensies worden niet meer onderhouden of kunnen compatibiliteitsproblemen hebben. Overweeg ze bij te werken, te vervangen of te verwijderen.'
+      section_disabled_empty: 'Alle extensies zijn ingeschakeld.'
+      section_disabled_heading: Uitgeschakeld
+      section_disabled_help: 'Deze extensies zijn geïnstalleerd maar momenteel niet ingeschakeld. Schakel ze in via hun instellingenpagina, of verwijder ze als ze niet meer nodig zijn.'
+      section_suggested_empty: 'Geen suggesties.'
+      section_suggested_heading: Voorgesteld
+      section_suggested_help: 'Flarum-extensies kunnen optionele extra functies toevoegen door andere extensies of pakketten op te geven. Deze kunnen meer functies of integraties toevoegen.'
+      suggested_by: 'Voorgesteld door {extension}'
+      title: Extensiegezondheid
     header:
       get_help: 'Krijg hulp'
       log_out_button: '=> core.ref.log_out'
+      search_placeholder: Zoeken...
+      search_role_label: Zoeken
     loading:
       title: 'Even geduld...'
+    models:
+      discussions: '=> core.ref.discussions'
+      posts: '=> core.ref.posts'
+      users: '=> core.ref.users'
     nav:
+      advanced_button: '=> core.admin.advanced.title'
+      advanced_title: '=> core.admin.advanced.description'
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: Analyses
         authentication: Authenticatie
         core: 'Core Configuratie'
         discussion: Discussie
         feature: Functies
         formatting: Formattering
         forum-widget: Forumwidgets
+        infrastructure: Infrastructuur
         language: Talen
         moderation: Moderatie
         other: 'Andere Extensies'
@@ -241,6 +374,7 @@ core:
       participate_heading: Meedoen
       post_without_throttle_label: 'Reageer meerdere keren zonder te wachten'
       read_heading: Lezen
+      remove_scope_confirmation: 'Weet u zeker dat u het {scope}-bereik wilt verwijderen?'
       remove_scope_label: 'Verwijder de omvang van {scope}'
       rename_discussions_label: 'Discussies hernoemen'
       reply_to_discussions_label: 'Reageren op discussies'
@@ -262,8 +396,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Gesloten
       signup_open_button: Open
+    search_source:
+      general:
+        heading: Algemeen
     settings:
       saved_message: 'Uw wijzigingen zijn opgeslagen.'
+      select_dropdown_custom_label: Aangepast
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: Verwijderen
@@ -285,6 +423,9 @@ core:
           join_time:
             title: Aangesloten
           user_actions:
+            edit_user:
+              button: '=> core.ref.edit'
+              tooltip: '{username} bewerken'
             title: Acties
           user_id:
             title: ID
@@ -300,17 +441,41 @@ core:
       must_be_numeric_message: 'Filter {filter} moet numeriek zijn.'
       must_not_be_array_message: 'Filter {filter} mag geen array zijn.'
       must_not_be_multidimensional_array_message: 'Filter {filter} mag geen multidimensionale array zijn.'
+    invalid_username_message: 'De gebruikersnaam mag alleen letters, cijfers en koppeltekens bevatten, met ten minste één letter.'
   email:
     abandoned_extensions:
+      body_intro: 'De volgende geïnstalleerde extensie(s) zijn gemarkeerd als verlaten:'
+      body_outro: 'Controleer deze extensies en overweeg waar beschikbaar te migreren naar alternatieven.'
+      line_no_replacement: '{package} (geen vervanger beschikbaar)'
+      line_with_replacement: '{package} (voorgesteld alternatief: {replacement})'
       subject: 'Vereiste actie: niet actieve extensie(s) gedetecteerd'
     activate_account:
+      body: "Iemand (hopelijk u!) heeft zich aangemeld bij {forum} met dit e-mailadres.\n\nAls u dit was, klik dan op de volgende link en uw account wordt geactiveerd:\n{url}\n\nAls u zich niet heeft aangemeld, negeer dan deze e-mail.\n"
       subject: 'Activeer je nieuwe account'
     confirm_email:
+      body: "Iemand (hopelijk u!) heeft het e-mailadres op {forum} gewijzigd naar dit adres.\n\nAls u dit was, klik dan op de volgende link en uw e-mailadres wordt bevestigd:\n{url}\n\nAls u dit niet was, negeer dan deze e-mail.\n"
       subject: 'Bevestig je nieuwe e-mailadres'
+    greeting: 'Hallo {displayName},'
+    informational:
+      default_title: Informatie
+      footer: 'Deze e-mail is verzonden naar {userEmail} als informatieve dienst met betrekking tot uw account op [{forumTitle}]({forumUrl}).'
+      footer_plain: 'Deze e-mail is verzonden naar {userEmail} als informatieve dienst met betrekking tot uw account op {forumTitle}.'
+    notification:
+      default_title: Melding
+      footer:
+        main_text: 'Deze e-mail is verzonden naar {email} omdat u bent geabonneerd op "{type}"-meldingen op [{forumTitle}]({forumUrl}).'
+        main_text_plain: 'Deze e-mail is verzonden naar {email} omdat u bent geabonneerd op "{type}"-meldingen op {forumTitle}.'
+        settings_text: 'Beheer uw meldingsinstellingen [hier]({settingsLink}).'
+        settings_text_plain: 'Beheer uw meldingsinstellingen hier: {settingsLink}'
+        unsubscribe_text: 'Als u dit type meldingen niet meer wilt ontvangen, [meld u hier af]({unsubscribeLink}).'
+        unsubscribe_text_plain: 'Als u dit type meldingen niet meer wilt ontvangen, meld u hier af: {unsubscribeLink}'
     reset_password:
+      body: "Iemand (hopelijk u!) heeft een vergeten wachtwoord-verzoek ingediend voor uw account op {forum}.\n\nAls u dit was, klik dan op de volgende link om uw wachtwoord opnieuw in te stellen:\n{url}\n\nAls u uw wachtwoord niet wilt wijzigen, negeer dan gewoon deze e-mail en er gebeurt niets.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
+      body: "Dit is een test-e-mail om te bevestigen dat uw Flarum-e-mailconfiguratie correct werkt.\n\nAls u dit was, betekent deze e-mail dat uw configuratie werkt!\n\nAls u dit niet was, negeer dan deze e-mail.\n"
       subject: 'Flarum Email Test'
+    signoff: 'Het {forumTitle}-team'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -362,6 +527,7 @@ core:
       empty_text: 'Het lijkt erop dat er hier geen discussies zijn.'
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} heeft {ago} gereageerd'
+      skip_discussion_list_pane: 'Het discussielijstvenster overslaan'
       started_text: '{username} heeft {ago} gereageerd'
       total_replies_a11y_label: '{count, plural, one {# antwoord} other {# antwoorden}}'
       unread_replies_a11y_label: '{count, plural, one {# ongelezen antwoord} other {# ongelezen antwoorden}}. Markeer ongelezen {count, plural, one {bericht} other {berichten}} als gelezen.'
@@ -391,19 +557,28 @@ core:
       mark_all_as_read_confirmation: 'Weet je zeker dat je alle discussies als gelezen wilt markeren?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
+      refresh_tooltip: '=> core.ref.refresh'
+      skip_to_main_content: 'Naar hoofdinhoud gaan'
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Toggle navigatie dropdown menu'
     index_sort:
       latest_button: Laatste
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Verander de sortering van de discussielijst'
       top_button: Top
     log_in:
       forgot_password_link: 'Wachtwoord vergeten?'
+      invalid_login_message: '=> core.ref.invalid_login_message'
       password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
       sign_up_text: 'Nog geen account? <a>Registreren</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
+      delete_all_confirm: 'Weet u zeker dat u alle meldingen wilt verwijderen? Deze actie is niet ongedaan te maken'
       delete_all_tooltip: 'Alle meldingen verwijderen'
       discussion_renamed_text: '{username} heeft de titel veranderd'
       empty_text: 'Geen notificaties'
@@ -424,6 +599,10 @@ core:
       hide_confirmation: 'Weet je zeker dat je dit bericht wilt verwijderen?'
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Toggle actiemenu van bericht'
+    post_list:
+      empty_text: 'Er lijken hier geen berichten te zijn.'
+      in_discussion_text: 'In {discussion}'
+      load_more_button: '=> core.ref.load_more'
     post_scrubber:
       now_link: Nu
       original_post_link: 'Origineel bericht'
@@ -435,6 +614,13 @@ core:
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} later'
+    posts:
+      meta_title_text: 'Zoekresultaten voor berichten'
+      refresh_tooltip: '=> core.ref.refresh'
+    posts_sort:
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
     rename_discussion:
       submit_button: '=> core.ref.rename'
       title: 'Discussie hernoemen'
@@ -474,6 +660,16 @@ core:
       account_heading: Account
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      color_scheme_heading: Kleurenschema
+      color_schemes:
+        auto_mode_label: Systeemvoorkeur
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: Apparaat
+      haptic_feedback_help: 'Alleen beschikbaar op ondersteunde mobiele apparaten'
+      haptic_feedback_label: 'Haptische feedback inschakelen'
       notification_checkbox_a11y_label_template: 'Ontvang "{description}"-meldingen via {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
@@ -535,9 +731,11 @@ core:
     data_segment:
       label: '{label}:'
     datetime_formats:
+      fullTime: LLLL
       humanTimeLong: ll
       humanTimeShort: 'D MMM'
       scrubber: 'MMMM YYYY'
+      userListJoinDate: LLL
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Toggle menu'
@@ -556,8 +754,10 @@ core:
       username_label: '=> core.ref.username'
     error:
       circular_dependencies_message: 'Circulaire afhankelijkheden gedetecteerd: {extensions}. Afbreken. Schakel één van de extensies uit en probeer het opnieuw.'
+      db_error_message: 'Databasequery mislukt. Dit kan worden veroorzaakt door een incompatibiliteit tussen een extensie en uw databasedriver.'
       dependent_extensions_message: 'Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}'
       extension_initialiation_failed_message: '{extension} kan niet worden geïnitialiseerd, controleer de browserconsole voor meer informatie.'
+      extension_runtime_failed_message: '{extension} is een fout tegengekomen tijdens het uitvoeren. Raadpleeg de browserconsole voor meer informatie.'
       generic_cross_origin_message: 'Oeps! Er is iets misgegaan tijdens een cross-origin verzoek. Laad de pagina opnieuw en probeer het opnieuw.'
       generic_message: 'Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.'
       missing_dependencies_message: 'Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}'
@@ -566,6 +766,35 @@ core:
       permission_denied_message: 'Je hebt geen permissie om dat te doen.'
       rate_limit_exceeded_message: 'Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.'
       render_failed_message: 'Sorry, er is een fout opgetreden bij het weergeven van deze inhoud. Wanneer je een gebruiker bent, probeer het dan later opnieuw. Als je een beheerder bent, kijk dan in je Flarum-logbestanden voor meer informatie.'
+    gambits:
+      discussions:
+        author:
+          hint: 'gebruikersnaam of door komma''s gescheiden lijst van gebruikersnamen'
+          key: auteur
+        created:
+          hint: '2020-12-31 of 2020-12-31..2021-09-30'
+          key: aangemaakt
+        hidden:
+          key: verborgen
+        unread:
+          key: ongelezen
+      group_keys:
+        allows: 'staat toe'
+        has: heeft
+        is: is
+      posts:
+        discussion:
+          hint: 'het ID van de discussie'
+          key: discussie
+      users:
+        email:
+          hint: voorbeeld@machine.local
+          key: e-mail
+        group:
+          hint: 'enkelvoudige of meervoudige groepsnamen'
+          key: groep
+    input:
+      clear_button: 'Invoer wissen'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -573,15 +802,54 @@ core:
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Pagina # - {forumName}}}'
     modal:
       close: Sluiten
+    multi_select:
+      placeholder: 'Selecteer meerdere opties'
     nav:
       drawer_button: 'Open navigatie'
+    notices:
+      bisecting: 'Er wordt een extensie bisect-proces uitgevoerd om te bepalen welke extensie een probleem veroorzaakt.'
+      bisecting_continue: 'Doorgaan met bisect'
+      maintenance_mode_low: 'In onderhoud. Alleen beheerders hebben toegang tot het forum.'
+      maintenance_mode_safe: 'In onderhoud met veilige modus. Alleen beheerders hebben toegang tot het forum en er worden geen extensies geladen.'
     number_suffix:
       kilo_text: K
       mega_text: M
+    pagination:
+      back_button: 'Vorige pagina'
+      first_button: 'Ga naar eerste pagina'
+      go_to_page_textbox_a11y_label: 'Ga direct naar paginanummer'
+      last_button: 'Ga naar laatste pagina'
+      next_button: 'Volgende pagina'
+      page_counter: 'Pagina {current} van {total}'
+    search:
+      gambit_minus_button_a11y_label: 'Een negatief filter toevoegen'
+      gambit_plus_button_a11y_label: 'Een positief filter toevoegen'
+      no_results_text: 'Er lijken hier geen resultaten te zijn.'
+      no_search_text: 'U heeft nog niets gezocht.'
+      options_heading: Zoekopties
+      placeholder: Zoeken...
+      preview_heading: Zoekvoorbeeld
+      search_clear_button_accessible_label: 'Zoekopdracht wissen'
+      title: Zoeken
+    search_source:
+      discussions:
+        all_button: 'Alle discussies doorzoeken op "{query}"'
+        heading: '=> core.ref.discussions'
+      posts:
+        all_button: 'Alle berichten doorzoeken op "{query}"'
+        heading: '=> core.ref.posts'
+      users:
+        heading: '=> core.ref.users'
     series:
       glue_text: ', '
       three_text: '{first}, {second}, en {third}'
       two_text: '{first} en {second}'
+    user_selection_modal:
+      empty_results: 'Geen gebruikers gevonden die overeenkomen met uw zoekopdracht.'
+      max_items_to_select: '{count, plural, one {Selecteer maximaal # gebruiker} other {Selecteer maximaal # gebruikers}}'
+      search_placeholder: '=> core.ref.search_users'
+      submit_button: '=> core.ref.okay'
+      title: 'Relevante gebruikers selecteren'
     username:
       deleted_text: '[verwijderd]'
   ref:
@@ -596,6 +864,8 @@ core:
     custom_footer_title: 'Wijzig eigen voettekst'
     custom_header_text: 'HTML toevoegen dat weergegeven wordt bovenaan elke pagina, boven Flarum''s eigen header.'
     custom_header_title: 'Wijzig eigen header'
+    dark_hc_mode_label: 'Donker hoog contrastmodus'
+    dark_mode_label: 'Donkere modus'
     delete: Verwijderen
     delete_forever: 'Permanent verwijderen'
     discussions: Discussies
@@ -605,7 +875,10 @@ core:
     extensions: Extensies
     generic_confirmation_message: 'Weet je zeker dat je verder wilt gaan? Deze actie kan niet ongedaan gemaakt worden.'
     icon: Icoon
-    icon_text: 'Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix.'
+    icon_text: 'Kies een <a>FontAwesome</a> icon class, <em>inclusief</em> het voorvoegsel (bijv. <code>fas fa-flag</code> of <code>fa-solid fa-flag</code>).'
+    invalid_login_message: 'Uw aanmeldgegevens zijn onjuist.'
+    light_hc_mode_label: 'Licht hoog contrastmodus'
+    light_mode_label: 'Lichte modus'
     load_more: 'Meer laden'
     loading: Laden...
     log_in: Inloggen
@@ -613,12 +886,17 @@ core:
     mark_all_as_read: 'Alles als gelezen markeren'
     never: Nooit
     new_token: 'Nieuw token'
+    newest: Nieuwste
     next_page: 'Volgende pagina'
     notifications: Notificaties
     okay: Oké
+    oldest: Oudste
     password: Wachtwoord
     posts: Berichten
     previous_page: 'Vorige pagina'
+    refresh: Vernieuwen
+    relevance: Relevantie
+    remember_me_label: 'Onthoud mij'
     remove: Verwijder
     rename: Hernoemen
     reply: Reageren
@@ -632,6 +910,7 @@ core:
     some_others: '{count, plural, one {# ander} other {# andere}}'
     start_a_discussion: 'Start een discussie'
     username: Gebruikersnaam
+    username_or_email_placeholder: 'Gebruikersnaam of e-mailadres'
     users: Gebruikers
     view: Bekijk
     write_a_reply: 'Schrijf een reactie...'
@@ -664,6 +943,9 @@ core:
       csrf_token_mismatch: 'Je bent te lang inactief geweest.'
       csrf_token_mismatch_return_link: 'Ga terug om het opnieuw te proberen'
       invalid_confirmation_token: 'Deze bevestigingslink is al gebruikt of is ongeldig.'
+      maintenance_mode_link: Beheerdersaanmelding
+      maintenance_mode_message: 'Dit forum is momenteel in onderhoud. Probeer het later opnieuw.'
+      maintenance_mode_title: Onderhoud
       method_not_allowed: 'Deze pagina ondersteunt die aanvraagmethode niet.'
       not_authenticated: 'U hebt geen toestemming om deze pagina te openen. Probeer het opnieuw na het inloggen.'
       not_found: 'De door u opgevraagde pagina kon niet worden gevonden.'
@@ -674,6 +956,15 @@ core:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    layout:
+      skip_to_content: 'Naar inhoud gaan'
+    log_in:
+      invalid_login_message: '=> core.ref.invalid_login_message'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Ben je zeker dat u wilt uitloggen uit {forum}?'
@@ -683,3 +974,11 @@ core:
       new_password_label: 'Nieuw wachtwoord'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
+    unsubscribe_email:
+      confirm_button: Bevestigen
+      confirm_message: 'U heeft gevraagd om u af te melden van "{type}" e-mailmeldingen van {forumTitle}.'
+      immediate_helptext: 'U wordt onmiddellijk afgemeld zodra u bevestigt.'
+      invalid_message: 'Deze afmeldlink is ongeldig of is al gebruikt. Raadpleeg voor wijzigingen in uw e-mailmeldingen van {forumTitle} [uw instellingen]({settingsLink}).'
+      return_to_forum: 'Terug naar {forumTitle}'
+      success_message: 'U heeft zich succesvol afgemeld van "{type}"-meldingen van {forumTitle}. Als u ze opnieuw wilt ontvangen, [update uw instellingen]({settingsLink}).'
+      title: Afmeldbevestiging
