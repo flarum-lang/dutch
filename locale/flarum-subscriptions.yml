@@ -5,6 +5,10 @@
 flarum-subscriptions:
   email:
     new_post:
+      html:
+        body: "{poster_display_name} heeft zojuist een bericht geplaatst in een discussie die je volgt: [{title}]({url}).\n\nJe ontvangt geen meldingen meer over deze discussie totdat je op de hoogte bent.\n"
+      plain:
+        body: "{poster_display_name} heeft zojuist een bericht geplaatst in een discussie die je volgt: {title}.\n\nOm de nieuwe activiteit te bekijken, ga naar de volgende link:\n{url}\n\n---\n\n{content}\n\n---\n\nJe ontvangt geen meldingen meer over deze discussie totdat je op de hoogte bent.\n"
       subject: '[Nieuwe discussie] {title}'
   forum:
     badge:
@@ -21,6 +25,7 @@ flarum-subscriptions:
     notifications:
       new_post_text: '{username} heeft gereageerd'
     settings:
+      follow_after_create_label: 'Volg automatisch discussies die ik start'
       follow_after_reply_label: 'Automatisch discussies volgen als ik reageer'
       notify_for_all_posts_label: 'Geef een melding over elke nieuwe post in plaats van alleen de laatste in een discussie'
       notify_new_post_label: 'Iemand heeft gereageerd in een discussie die je volgt'
@@ -34,6 +39,12 @@ flarum-subscriptions:
       not_following_text: 'Word op de hoogte gesteld alleen wanneer je @genoemd wordt.'
       notify_alert_tooltip: 'Ontvang een forum notificatie wanneer er nieuwe berichten zijn geplaatst'
       notify_email_tooltip: 'Ontvang een email wanneer er nieuwe berichten zijn geplaatst'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: following
+          ignoring_key: ignoring
   ref:
     follow: Volgen
     following: Volgend

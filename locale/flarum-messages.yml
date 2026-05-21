@@ -9,13 +9,20 @@ flarum-messages:
       send_messages_label: 'Vezend privé berichten'
   email:
     message_received:
+      html:
+        body: '{user_display_name} heeft je een [nieuw bericht]({url}) gestuurd.'
+      plain:
+        body: "{user_display_name} heeft je een nieuw bericht gestuurd.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{user_display_name} heeft je een bericht gestuurd'
   forum:
     composer:
+      discard_confirmation: 'Je hebt je bericht nog niet verzonden. Weet je zeker dat je het wilt verwijderen?'
       placeholder: 'Schrijf een bericht...'
+      recipients: Ontvangers
       submit_button: 'Verzend bericht'
       to: 'Aan:'
     dialog_list:
+      load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Markeer als gelezen'
       title: Berichten
       view_all: 'Bekijk alle berichten'
@@ -24,6 +31,7 @@ flarum-messages:
       cannot_reply_text: 'Deze gebruiker kan niet antwoorden'
       controls:
         details_button: Details
+      controls_toggle_label: Dialoogbesturingsacties
       details_modal:
         created_at: Aanmaakdatum
         recipients: Deelnemers
@@ -54,6 +62,8 @@ flarum-messages:
         start_of_the_conversation: 'Begin van het gesprek'
         time_lapsed_text: '=> core.forum.post_stream.time_lapsed_text'
       title: Berichten
+    notifications:
+      message_received_text: 'Bericht ontvangen melding van {user}'
     recipient_selection_modal:
       title: 'Selecteer de ontvangers van dit bericht'
     settings:

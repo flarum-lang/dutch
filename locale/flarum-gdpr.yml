@@ -34,6 +34,7 @@ flarum-gdpr:
         'yes': Ja
     nav:
       gdpr_button: 'GDPR Integraties'
+      gdpr_title: '=> flarum-gdpr.admin.gdpr_page.description'
     permissions:
       process_erasure: 'Verwerk wisverzoeken'
       process_export_for_others: 'Gegevensexports voor andere gebruikers aanvragen en ontvangen'
@@ -53,17 +54,28 @@ flarum-gdpr:
       gdpr_page:
         help_text: 'Voordat je beslist welke acties je op je forum wilt gebruiken, is het essentieel om te begrijpen welke gegevens worden geïntegreerd en hoe deze worden verwerkt voor zowel anonimisering als verwijdering. Bezoek het GDPR-overzicht om te begrijpen hoe gegevens worden verwerkt en welke optionele extensies hun gegevens hebben geregistreerd voor verwerking door deze extensie.'
         title: 'Gegevensintegratie en acties'
+    userlist:
+      columns:
+        user_actions:
+          data_export:
+            button: Exporteren
+            tooltip: 'Exporteer data voor {username}'
   email:
     confirm_erasure:
+      body: "Iemand (hopelijk jij) heeft zojuist een verzoek ingediend om het account `{display_name}` te verwijderen.\n\nOm deze actie te bevestigen, klik je op de volgende link. Je verzoek wordt vervolgens door ons team verwerkt.\n\n{erasure_confirm_url}\n"
       subject: 'Bevestig je account wisverzoek'
     erasure_cancelled:
+      body: "Dit is een automatische melding dat uw verzoek tot annulering van de accountverwijdering is verwerkt.\n\nUw account wordt niet langer verwijderd.\n"
       subject: 'Account wisverzoek is geannuleerd'
     erasure_completed:
       anonymization:
+        body: "Dit is een automatische, definitieve melding dat uw account is geanonimiseerd.\n"
         subject: 'Accountanonimisering is voltooid'
       deletion:
+        body: "Dit is een automatische, definitieve melding dat uw account is verwijderd.\n"
         subject: 'Account verwijderen is voltooid'
     export_available:
+      body: "U hebt een export van de accountgegevens voor {username} aangevraagd. Deze export is succesvol gegenereerd en is nu beschikbaar:\n\n{url}\n\nDeze export blijft beschikbaar tot {destroys_at}.\n"
       subject: 'Gegevensexport beschikbaar'
   forum:
     badges:

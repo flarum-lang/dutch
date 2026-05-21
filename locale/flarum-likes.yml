@@ -27,3 +27,9 @@ flarum-likes:
       notify_post_liked_label: 'Iemand vindt een van mijn berichten leuk'
     user:
       likes_link: 'Vind ik leuks'
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'De ID of naam van de gebruiker'
+          key: likedBy
