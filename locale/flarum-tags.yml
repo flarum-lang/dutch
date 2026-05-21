@@ -70,6 +70,11 @@ flarum-tags:
       meta_description_text: 'Alle discussies met de categorie {tag}'
   lib:
     deleted_tag_text: Verwijderd
+    gambits:
+      discussions:
+        tag:
+          hint: 'naam van een tag, of een door komma''s gescheiden lijst met tagnamen, of "untagged"'
+          key: tag
     tag_selection_modal:
       bypass_requirements: 'Tagvereisten omzeilen'
       choose_primary_placeholder: '{count, plural, one {Kies een primaire tag} other {Kies # primaire tags}}'

@@ -18,10 +18,14 @@ michaelbelgium-mybb-to-flarum:
           db_label: 'Database naam'
           host_label: 'Database host'
           password_label: 'Database wachtwoord'
+          path:
+            help_text: 'Het absolute pad naar de MyBB-installatie, bijvoorbeeld: /var/www/mybb.'
+            label: 'Absoluut MyBB-pad'
           prefix_label: 'Tabel prefix'
           title: 'MyBB instellingen'
           user_label: 'Database gebruiker'
         options:
+          debug_mode_label: 'Log inschakelen'
           migrate_attachments_label: 'Migreer bijlagen'
           migrate_avatars_label: 'Migreer avatars'
           migrate_soft_posts_label: 'Migreer voorlopig verwijderde berichten'

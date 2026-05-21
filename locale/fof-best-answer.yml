@@ -82,6 +82,10 @@ fof-best-answer:
     this_best_answer: 'Selecteer als beste antwoord'
     user:
       best-answer-count: '{count, plural, one { {count} best antwoord} other {{count} beste antwoorden}}'
+  lib:
+    gambits:
+      solved-discussions:
+        key: solved
 fof-user-directory:
   lib:
     sort:

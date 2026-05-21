@@ -9,8 +9,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Er is geen reden opgegeven voor deze schorsing.'
     suspended:
+      html:
+        body: 'Je bent geschorst van {forumTitle} om de volgende reden:'
+      plain:
+        body: "Je bent geschorst om de volgende reden:\n\n---\n{suspension_message}\n---\n"
       subject: 'Uw account is opgeschort'
     unsuspended:
+      html:
+        body: 'Je account is weer toegankelijk. Je kunt terugkeren naar [{forumTitle}]({forum_url}) wanneer je er klaar voor bent.'
+      plain:
+        body: "Je account is weer toegankelijk. Je kunt terugkeren naar het forum door op de volgende link te klikken:\n\n{forum_url}\n"
       subject: 'Uw account is niet meer opgeschort'
   forum:
     notifications:
@@ -37,3 +45,8 @@ flarum-suspend:
       suspended_tooltip: Geschorst
     user_controls:
       suspend_button: Opschorten
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: suspended

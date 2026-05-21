@@ -26,6 +26,8 @@ fof-moderator-warnings:
       warning_button: 'Waarschuw gebruiker'
     settings:
       warning_notification_label: 'Een moderator geeft mij een waarschuwing'
+    user:
+      warnings: Waarschuwingen
     validation:
       invalid_strike_count: 'Het aantal strikes moet een geheel getal zijn tussen 0 en 5.'
       public_comment_required: 'Geef een openbare opmerking op.'
@@ -40,6 +42,8 @@ fof-moderator-warnings:
       warnings_no_strikes: 'Moderator Waarschuwingen: Geen Strikes Ontvangen'
     warning_list_item:
       linked_post: 'Gelinkt bericht'
+      list_item_heading: '{strikes, plural, one {# strike, {time}} other {# strikes, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {# strike, {time} (verwijderd)} other {# strikes, {time} (verwijderd)}}'
       private_comment: 'Zichtbare opmerkingen voor moderators'
       public_comment: Waarschuwing
     warning_modal:
