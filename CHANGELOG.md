@@ -31,6 +31,7 @@ CHANGELOG
 **Updated and/or removed outdated translations for extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
@@ -75,7 +76,6 @@ CHANGELOG
 **Removed support for outdated extensions**:
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
-* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online)
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
