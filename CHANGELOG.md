@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.3 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+All changes: [v1.4.2...v1.4.3](https://github.com/flarum-lang/dutch/compare/v1.4.2...v1.4.3).
+
+
 1.4.2 (2026-04-18)
 ------------------
 
