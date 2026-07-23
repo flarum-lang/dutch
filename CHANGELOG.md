@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 
 
 All changes: [v2.0.0...v2.0.1](https://github.com/flarum-lang/dutch/compare/v2.0.0...v2.0.1).
