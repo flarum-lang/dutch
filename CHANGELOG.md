@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 
 
 All changes: [v2.0.0...v2.0.1](https://github.com/flarum-lang/dutch/compare/v2.0.0...v2.0.1).
