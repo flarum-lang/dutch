@@ -22,7 +22,6 @@ fof-links:
       use_rel_me: 'Voeg het <code>rel="me"</code> attribuut toe voor identiteitsverificatie op andere sites'
       visibility:
         guest-only:
-          help: 'Alleen {guest} kan deze link zien. De bovenstaande rechten moeten worden ingesteld op ''{everyone}''.'
           label: 'alleen {guest} ?'
         help: 'Links zijn standaard alleen zichtbaar voor <code>{admin}</code>-gebruikers. Pas de rechten aan om te bepalen wie deze link mag zien.'
         help-disabled: 'Sla de koppeling op voordat u de zichtbaarheidsinstellingen wijzigt.'
