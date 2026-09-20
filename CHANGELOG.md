@@ -12,6 +12,11 @@ CHANGELOG
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 
 
+**Updated translations for extensions**:
+
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+
+
 All changes: [v2.0.0...2.0.1](https://github.com/flarum-lang/dutch/compare/v2.0.0...2.0.1).
 
 
