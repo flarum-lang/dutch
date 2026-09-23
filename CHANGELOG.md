@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.4.3 (2026-09-23)
+------------------
+
+**Added support for new extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+All changes: [v1.4.2...1.4.3](https://github.com/flarum-lang/dutch/compare/v1.4.2...1.4.3).
+
+
 1.4.2 (2026-04-18)
 ------------------
 
