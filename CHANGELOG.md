@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-09-23)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+
+
+**Updated translations for extensions**:
+
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+
+
+All changes: [v2.0.0...2.0.1](https://github.com/flarum-lang/dutch/compare/v2.0.0...2.0.1).
+
+
 2.0.0 (2026-06-10)
 ------------------
 
