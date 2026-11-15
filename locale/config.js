@@ -1,49 +1,6 @@
-// Custom Dutch dayJs Locale File
-// Based on https://github.com/iamkun/dayjs/blob/v1.9.3/src/locale/nl.js
+// source: https://unpkg.com/dayjs@1.11.23/locale/nl.js
+// see: https://github.com/iamkun/dayjs/blob/v1.11.23/src/locale/nl.js
 
-dayjs.locale('nl', {
-  months : 'januari_februari_maart_april_mei_juni_juli_augustus_september_oktober_november_december'.split('_'),
-  monthsShort : 'jan._feb._mar._apr._mei_jun._jul._aug._sep._okt._nov._dec.'.split('_'),
-  weekdays : 'zondag_maandag_dinsdag_woensdag_donderdag_vrijdag_zaterdag'.split('_'),
-  weekdaysShort : 'zo._ma._di._wo._do._vr._za.'.split('_'),
-  weekdaysMin : 'Zo_Ma_Di_Wo_Do_Vr_Za'.split('_'),
-  weekdaysParseExact: true,
-  ordinal: n => `${n}.`,
-  formats : {
-    LT : 'HH:mm',
-    LTS : 'HH:mm:ss',
-    L : 'DD-MM-YYYY',
-    LL : 'D MMMM YYYY',
-    LLL : 'D MMMM YYYY HH:mm',
-    LLLL : 'dddd D MMMM YYYY HH:mm'
-  },
-  calendar : {
-    sameDay: '[Vandaag om] LT',
-    nextDay: '[Morgen om] LT',
-    nextWeek: 'dddd [om] LT',
-    lastDay: '[Gisteren om] LT',
-    lastWeek: 'dddd [om] LT',
-    sameElse: 'L'
-  },
-  relativeTime: {
-    future: 'over %s',
-    past: '%s geleden',
-    s: 'een paar seconden',
-    m: 'een minuut',
-    mm: '%d minuten',
-    h: 'een uur',
-    hh: '%d uur',
-    d: 'een dag',
-    dd: '%d dagen',
-    M: 'een maand',
-    MM: '%d maanden',
-    y: 'een jaar',
-    yy: '%d jaar'
-  },
-  ordinalParse: /\d{1,2}(ste|de)/,
-  ordinal : function (number) {
-    return number + ((number === 1 || number === 8 || number >= 20) ? 'ste' : 'de');
-  },
-  weekStart: 1,
-  yearStart: 4,
-});
+!function(e,a){"object"==typeof exports&&"undefined"!=typeof module?module.exports=a(require("dayjs")):"function"==typeof define&&define.amd?define(["dayjs"],a):(e="undefined"!=typeof globalThis?globalThis:e||self).dayjs_locale_nl=a(e.dayjs)}(this,(function(e){"use strict";function a(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var d=a(e),n={name:"nl",weekdays:"zondag_maandag_dinsdag_woensdag_donderdag_vrijdag_zaterdag".split("_"),weekdaysShort:"zo._ma._di._wo._do._vr._za.".split("_"),weekdaysMin:"zo_ma_di_wo_do_vr_za".split("_"),months:"januari_februari_maart_april_mei_juni_juli_augustus_september_oktober_november_december".split("_"),monthsShort:"jan_feb_mrt_apr_mei_jun_jul_aug_sep_okt_nov_dec".split("_"),ordinal:function(e){return"["+e+(1===e||8===e||e>=20?"ste":"de")+"]"},weekStart:1,yearStart:4,formats:{LT:"HH:mm",LTS:"HH:mm:ss",L:"DD-MM-YYYY",LL:"D MMMM YYYY",LLL:"D MMMM YYYY HH:mm",LLLL:"dddd D MMMM YYYY HH:mm"},relativeTime:{future:"over %s",past:"%s geleden",s:"een paar seconden",m:"een minuut",mm:"%d minuten",h:"een uur",hh:"%d uur",d:"een dag",dd:"%d dagen",M:"een maand",MM:"%d maanden",y:"een jaar",yy:"%d jaar"}};return d.default.locale(n,null,!0),n}));
+
+dayjs.locale('nl');
