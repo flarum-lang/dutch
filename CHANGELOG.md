@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.4 (2026-11-23)
+------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.4.3...1.4.4](https://github.com/flarum-lang/dutch/compare/1.4.3...1.4.4).
+
+
 1.4.3 (2026-09-23)
 ------------------
 
