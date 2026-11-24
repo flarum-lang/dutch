@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (4% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (3% complete)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/dutch/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-11-23)
 ------------------
 
