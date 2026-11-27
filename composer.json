@@ -1,52 +1,45 @@
 {
-    "name": "flarum-lang/dutch",
-    "type": "flarum-extension",
-    "description": "Dutch language pack for Flarum.",
-    "keywords": ["locale", "dutch", "flarum"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Flarum Languages",
-            "homepage": "https://github.com/flarum-lang"
-        },
-        {
-            "name": "Rody Molenaar",
-            "email": "rody.molenaar@xtrada.nl",
-            "homepage": "http://rodymolenaar.nl/"
-        },
-        {
-            "name": "Michael V.",
-            "email": "michael@michaelbelgium.me",
-            "homepage": "http://michaelbelgium.me"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/flarum-lang/dutch/issues",
-        "source": "https://github.com/flarum-lang/dutch",
-        "forum": "https://discuss.flarum.org/d/18962"
-    },
-    "require": {
-        "flarum/core": "^2.0"
-    },
-    "extra": {
-        "flarum-extension": {
-            "title": "Dutch",
-            "category": "language",
-            "icon": {
-                "image": "dutch_core.svg",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "nl",
-            "title": "Nederlands"
-        },
-        "extiverse": {
-            "discuss": "https://discuss.flarum.org/d/18962"
-        },
-        "branch-alias": {
-            "dev-main": "1.x-dev"
-        }
-    }
+	"name": "flarum-lang/dutch",
+	"description": "Dutch Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/dutch",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "jaspervriends",
+			"homepage": "https://github.com/jaspervriends",
+			"role": "Maintainer"
+		},
+		{
+			"name": "MichaelBelgium",
+			"homepage": "https://github.com/MichaelBelgium",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/flarum-lang/dutch/issues",
+		"forum": "https://discuss.flarum.org/d/18962",
+		"source": "https://github.com/flarum-lang/dutch"
+	},
+	"require": {
+		"flarum/core": "^2.0"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Dutch",
+			"category": "language",
+			"icon": {
+				"image": "dutch_core.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "nl",
+			"title": "Nederlands"
+		}
+	}
 }
